@@ -1,0 +1,1161 @@
+.,English
+quest.name,Stress and Strain
+quest.authors,Scrubbless\nVersion - 1.5
+ACTION_ENTER_BLUE={action} {qst:ENTER_BLUE}
+ACTION_ENTER_GREEN={action} {qst:ENTER_GREEN}
+ACTION_ENTER_ORANGE={action} {qst:ENTER_ORANGE}
+ACTION_ENTER_RED={action} {qst:ENTER_RED}
+ACTION_INVESTIGATE={action} {qst:INVESTIGATE}
+CANCEL=Cancel
+COMPLETE=Complete
+CONTINUE=Continue
+ENTER_BLUE=Enter Blue
+ENTER_GREEN=Enter Green
+ENTER_ORANGE=Enter Orange
+ENTER_RED=Enter Red
+INVESTIGATE=Investigate
+MONSTER_ATTACKS=Monster Attacks
+NO_INVESTIGATORS_IN_RANGE=No Investigators within range
+PASSED=Passed
+TokenBoatRadio_Tile1.text,A radio transmitter sits in the control console, it is turned on but crackles with interference. 
+EventSetVARS_PlaceBoat_PlaceTile1.button1,{qst:CONTINUE}
+EventBoatTuneRadio_Tile1.text,You twist the tuning knobs, listing carefully for an open channel. Test {observation}.
+EventBoatTuneRadio_Tile1.button1,{qst:CONTINUE}
+EventBoatRadioFailed_Tile1.text,You spend several minutes turning the radio but are unable to discern anything other than static.
+EventBoatRadioFailed_Tile1.button1,{qst:CONTINUE}
+EventBoatRadioSuccess_Tile1.text,You methodically search the channels, using the tuning pin as a reference and manage to make out an active channel. "Fzzz... is Sheriff Robins... fzzfzz... Polic-.. ffzz... is ... fzzzz.. outbrea-... fzzz... fzzz... quarantine... fzz... proceed to safe zo-... fzzz... Sheriff Off-... fzzz Nort-... fzzz... Plaza... fzz..."\n\nThe message appears to be a repeating broadcast, you receive no response from your hails. \n\nGain 1 clue token\n\nRemove the Search token
+EventBoatRadioSuccess_Tile1.button1,{qst:CONTINUE}
+EventBoatSight_PlaceDock_PlaceTile2.button1,{qst:CONTINUE}
+TokenBoatSight_Tile1.button1,{qst:INVESTIGATE}
+EventBoatTuneRadio_Tile1.button2,{qst:CONTINUE}
+TokenBoatSight_Tile1.text,A thick mist clings around the boat on all sides, you can just about make out shapes on the starboard side. \n\nInvestigators on the {c:TileBoat_Tile1} tile may interact with this token
+EventPlaceBert3_PlaceTile3.button1,{qst:CONTINUE}
+TokenBoatRadio_Tile1.button1,{action} Tune the radio
+EventPlaceRadio_Tile1.text,A radio transmitter sits in the control console, it is turned on but crackles with interference. \n\nPlace a Search token as indicated
+EventPlaceRadio_Tile1.button1,{qst:CONTINUE}
+EventPlaceBoatSight_Tile1.text,The jetty is poorly lit and from where you stand the thick mist makes it hard to make out anything past the edge of the ship. \n\nPlace a Sight token as indicated
+EventPlaceBoatSight_Tile1.button1,{qst:CONTINUE}
+EventPlaceInvestigators_Tile1.text,Taking in a deep breath of the cool air, you steel your nerves.\n\nPlace your investigators in the space indicated
+EventPlaceInvestigators_Tile1.button1,{qst:CONTINUE}
+quest.description,A scenario for Mansions of Madness Second Edition.\n\n<b>What you expect to be a normal journey, turns out to be more traumatic than you could have imagined.</b>\n\nThis Scenario requires tiles and monsters from the following Expansions:\n\nMansions of Madness First Edition or Recurring Nightmares\nSupressed Memories\nBeyond the Threshold\n\nPlease remember to use the Items menu in game, it will be used quite extensively in this scenario.\n\n<i>If you find any bugs, issues or would like to comment on this Scenario. Please open an Issue on my GitHub repository at the following location:\n\nhttps://github.com/scrubbless/PublishedScenarios/issues</i>
+\n\nYour trip to Newport was meant to be a days boat ride down the Merrimac river with a short stop to refuel in Little Amesbury, however the sudden onset of the storm had thrown your bearings and your captain has been unable to identify its refueling stop.
+\n"By ma guess this should be Greyton. It's a small village along this stretch, must'a overshot Little Amesbury durin' the thick o' the storm, shoulda seen there a few hours past. Should be able ta moor at the dock an' refuel once tha storm 'as passed".
+UIInvestigationCompleteFleeText.uitext,You run through the streets of Ambersby, the howls of the creatures echoing through the streets, they are right on your heels. Leaping onto the boat you scream at the Captain to get moving, frantically trying to fuel the ship. Before you have finished the refuel, the Captain un-lashes the boat and kicks it from the dock. Creatures leap at the boat in a futile attempt to reach you, failing they splash into the sea and sink , one by one.\n\nYou look back at the town with a pang of guilt. What fate have you left the people of Ambersby? Will they be able to survive long enough for you to find help?\n\nCongratulations, you have escaped the doomed village of Ambersby. Lets hope that help can be found in time for that poor town.\n\nThe Investigation is complete.\n(There are three other alternate endings to this Scenario)
+\nThe captain is gripping the wheel tight, trying to keep the bobbing boat upright in the turbulant waters. You had set off this very morning, forcast for a smooth sail down the Merrimac River, expecting to arrive at Newbury Port by early evening. One fueling stop was scheduled, however due to the storm the captain was unable to make land as expected.
+\nYour eyes lock on the fuel guage, close to empty and your nerves begin to fray. The captain also frequently glances in the same direction and appears to be becoming more anxious, sweat beading on his brow. He had previously mentioned that he did not want to risk damage to the hull by mooring on the banks in this weather, prefering to push on as long as possible and find a dock, jetty or slip.
+UISplashScreenText.uitext,<b>~Stress and Strain~</b>\n\nThe rain lashes down around you as you huddle in the ship's cabin. The storm came on suddenly and unexpected, you shiver as the cold begins to take hold. \n\nThe captain is gripping the wheel tightly, trying to keep the bobbing ship upright in the turbulent waters. You had set off this very morning, forecast for a smooth sail down the Merrimac River, expecting to arrive at Newbury Port by early evening. One fueling stop was scheduled, however due to the storm the captain was unable to make land as expected. \n\nYour eyes lock on the fuel gauge, which shows close to empty; your nerves begin to fray. The captain also frequently glances in the same direction and appears to be becoming more anxious, sweat beading on his brow. \n\nYou jump as the captain exclaims - "Lights! It must be a dock". The tension eases as you ponder the prospect of a warm bed and a full belly. \n\nThe ship sputters and lurches forward, you can now just about make out a light, the captain must have good eyes.\n\nThe captain calls for you to prepare to moor.
+SpawnShopSmashZombieSuccess_Tile08.text,Attracted by the noise, a creature lumbers around the corner of the street.\n\nSpawn a Zombie
+TokenDockBarrels_Tile2.text,There are several barrels on the dock.
+TokenDockBarrels_Tile2.button1,{action} Search Barrels
+EventSearchBarrel_Tile2.text,You search the barrels and are unable to find any items of use, however behind the crates part of the wooden railing looks slightly loose. \n\nYou attempt to pull it free, Test {strength} (1).
+EventSearchBarrel_Tile2.button1,{qst:PASSED}
+EventPlaceSearchBarrel_Tile2.button1,{qst:CONTINUE}
+EventPlaceSearchBarrel_Tile2.text,There are several barrels on the dock. \n\nPlace a Search token as indicated
+TokenOfficeDoor_Tile3.button1,{action} Enter the Office
+EventPlaceOfficeExplore_Tile3.button1,{qst:CONTINUE}
+SpawnBellZombie_Tile3.button1,{qst:CONTINUE}
+EventPlaceOfficeExplore_Tile3.text,The office looks in quite good condition, other than the broken door hanging from its hinges.\n\nPlace an Explore token as indicated
+TokenBellSearch_Tile2.text,At the end of the dock is a large fog bell.
+TokenBellSearch_Tile2.button1,{action} Ring the Bell
+EventPlaceBellSearch_Tile2.button1,{qst:CONTINUE}
+EventEnterOffice_Tile3.text,As you approach the door you carefully avoid what you can now see is blood. The broken door creaks as you push it open.\n\nThe office is dark, but appears empty, the smell of fresh blood hangs in the air.\n\nRemove the Explore token
+EventMoveInOffice_Tile3.text,You my move one space into the explored area
+EventScientistDiagWarehouseEntered_Tile21.text,I think this is all the information you will get from Dr Chan. \nDo not use an {action} for this dialog.\n\nRemove the Person token
+TokenOfficeDoor_Tile3.text,The door hangs loosely on its hinges, it appears to have been forced open. There are dark red smears on the door and around the frame.
+EventPapersSearchToken_Tile3.button1,{qst:CONTINUE}
+EventPlaceCabinetSearch_Tile3.text,Behind the desk is a large cabinet, with a sturdy metal lock.
+EventPapersSearchToken_Tile3.text,Strewn across the desk and floor are several papers.\n\nPlace a Search token as indicated.
+EventPlaceCabinetSearch_Tile3.button1,{qst:CONTINUE}
+EventMoveInOffice_Tile3.button1,{qst:CONTINUE}
+EventEnterOffice_Tile3.button1,{qst:CONTINUE}
+EventPlaceBookShopSmashed_PlaceTile08.button1,{qst:CONTINUE}
+TokenRentalBoat_Tile3.button1,{action} Search Boats
+EventPlaceRentalBoatsSearch_Tile3.text,At the end of a dock is a stack of rental boats.\n\nPlace a Search token as indicated
+TokenRentalBoat_Tile3.text,To one side of the Rental Office is a stack of rental boats.
+EventPlaceRentalBoatsSearch_Tile3.button1,{qst:CONTINUE}
+SpawnRentalBoatZombie_Tile3.button1,{qst:CONTINUE}
+SpawnBellZombie_Tile3.text,The chiming of the fog bell rings out over the dock. You hear a groaning in the distance.\n\nA moment later a ghoulish creature lurches out from behind the stacked Rental Boats; foaming at the mouth, murder in its cold dead eyes.\n\nRemove this Search token and the Search token from the Rental Dock  tile.\n\nGain one {clue} token.\n\nSpawn a Zombie as indicated.\n\nIt looks like the noise has attracted some unwanted attention. 
+SpawnRentalBoatZombie_Tile3.text,As you step around the Boats you notice a ghoulish creature. It snarls as it looks up at you, then begins to lurch towards you.\n\nHaving the upper hand, you kick out. You hear the sound of cracking bones as your foot connects with its chest.\n\nSpawn a Zombie in the space indicated and deal one damage to it.\n\nGain one {clue}.\n\nRemove the Search token
+TokenCabinetToken_Tile3.text,The sturdy cabinet has an even more sturdy looking lock attached.
+TokenCabinetToken_Tile3.button1,{action} Attempt to smash the lock {strength}
+TokenCabinetToken_Tile3.button2,{action} Attempt to pick the lock {observation}
+EventSmashCabinetOffice_Tile3.button1,{qst:PASSED}
+EventSmashCabinetOffice_Tile3.text,You attempt to batter in one of the doors to the cabinet. Test {strength}
+PuzzleCabinetLockPuzzle_Tile3.button1,{qst:COMPLETE}
+TokenPapersToken_Tile3.button1,{action} Search Papers
+EventSmashCabinetSuccess_Tile3.button1,{qst:CONTINUE}
+EventSmashCabinetFailure_Tile03.text,You kick the cabinet hard several times, but it does not budge.
+EventSmashCabinetSuccess_Tile3.text,The Cabinet door splinters and gives way. \n\nInside you notice a pristine firarm.\n\nTake the {c:QItemCabinetGun_Tile3} common item and remove the Search token
+EventSmashCabinetFailure_Tile03.button1,{qst:CONTINUE}
+EventSmashCabinetOffice_Tile3.button2,{qst:FAILED}
+EventUnlockCabinetSuccess_Tile3.button1,{qst:CONTINUE}
+EventUnlockCabinetSuccess_Tile3.text,You adeptly twist the paperclips in the lock and hear a satisfying click.\n\nInside you notice a pristine firearm.\n\nTake the {c:QItemCabinetGun_Tile3} common item\n\nRemove the Search token
+EventReadManifestInventory_PlayerInv.text,You turn to the page headed Inventory. This appears to be a list of stocked items and recent sales. The following entry catches your eye.\n\n<i>Fuel Canisters = 0 - Stock, awaiting delivery\nRecent sales - Sheriff Robins - 1 Can \nDr Little - Berth 3 refuel.</i>\n\nAlthough the Rental Office has no remaining fuel, Sheriff Robins appears to have a canister.\n\nGain two {clue} tokens.
+EventReadManifest_PlayerInv.button1,{action} Read Journal
+EventReadManifest_PlayerInv.text,Wiping spots of blood from the book you look through the pages. The owner has kept meticulous records sorted into several catagories, you note two sections that appear to be useful.
+EventSearchOfficePapers_Tile3.text,You collect up all of the papers and stack them neatly on the desk. At a quick glance you can see there isn't much of interest on the papers, however there is a well thumbed Journal. You put it in your bag to look at later.\n\nGain the {c:QItemMooringPapersQuestItem_Tile3} Unique Item and remove the Search token.\n\nYou can interact with the {c:QItemMooringPapersQuestItem_Tile3} from the items menu
+EventSearchOfficePapers_Tile3.button1,{qst:CONTINUE}
+TokenPapersToken_Tile3.text,There has obviously been a fight here, lying to one side of the room is a broken chair. Papers are strewn all over the desk and office floor, the room is decorated with splashes of fresh blood, but you cannot see a body.
+EventReadManifestMoorings_PlayerInv.text,You flick to the Moorings section and note an entry for one of the Berths.\n\n<i>Berth 3: \nResearch Vessel #4, Dr Joyce Little\nDeparted in a hurry. Left cargo\nInvoice "The Centaur Company" \nfor clean-up costs.</i>\n\nThis small town seems like a strange place for a Reasearch vessel.\n\nGain two {clue} token
+EventReadManifestMoorings_PlayerInv.button1,{qst:CONTINUE}
+TokenBerth3Sight_Tile3.button1,{qst:INVESTIGATE}
+EventPlaceBerth3Sight_Tile3.button1,{qst:CONTINUE}
+TokenBerth3Sight_Tile3.text,The jetty continues to one side of the Rental Office, a sign reads "Berth 3".\n\nInvestigators in the {c:TileDockShop_tile3} may interact with this token
+EventPlaceBert3_PlaceTile3.text,Berth 3 is another small jetty to one side of the Rental Office.\n\nPlace the {c:TileBerth3_Tile5} tile.\n\nRemove the Sight token
+EventPlaceBerth3Sight_Tile3.text,The jetty continues to one side of the Rental Office.\n\nPlace a Sight token as indicated.
+EventPlacePharmaCreatesToken_Tile5.button1,{qst:CONTINUE}
+TokenPharaCrate1Search_Tile5.text,Several crates are stacked neatly on the jetty.
+EventPlacePharmaCreatesToken_Tile5.text,There are several crates stacked neatly behind a shop. The shop appears to have been closed for a long time.\n\nPlace Search tokens as indicated
+TokenPharaCrate1Search_Tile5.button1,{action} Search Crates
+EventPharaCrate1Search_Tile5.text,The crate is filled with various medical supplies. As you look through the box you do not notice that some of the contents have been damaged by the weather, suffer 1 face down damage ({observation} negates) as you cut your hand on some broken glass.\n\nCarefully picking around the glass you find an item that seems to be in good condition.\n\nTake the {c:QItemMedicalSupplies_Tile5} common item and remove the Search token
+EventBerth3ClueDoc_Tile5.button1,{qst:CONTINUE}
+TokenBerth3ListClue_Tile5.button1,{action} Take the inventory list
+EventBerth3ClueDoc_Tile5.text,A slip of paper attached to an empty crate flutters in the wind.\n\nPlace a Search token as indicated
+EventPlaceBookShopExplore_Tile13.text,On the opposite side of the street to the Beach is a bookshop. The door appears to be barricaded from the inside and no lights are on.\n\nPlace an Explore token as indicated
+EventInventoryListWind_Tile5.text,As you approach, the list begins to fluttering wildly in the stormy winds. Before you can grasp it, it rips from the crate and dances past you.\n\nYou jump in an attempt to catch the paper. Test {agility} (2)
+EventInventoryListWind_Tile5.button1,{qst:PASSED}
+EventInventoryListWind_Tile5.button2,{qst:FAILED}
+EventInventoryListClueSuccess_Tile5.text,You catch the inventory and land gracefully on the jetty.\n\nThe tattered list has the header  "The Centaur Company". It appears to be an Inventory of the Pharmaceutical supplies contained in the crate. You can't make out much but, but there is an entry that refers to "Part One" of a serum. It is an Orange liquid with the identifying number of 2734.\n\nYou place the paper in your Journal and add a note explaining your findings.\n\nAny Investigator can review evidence collected by interacting with the Old Journal in the Items menu.\n\nRemove the Search token.
+EventInventoryListClueSuccess_Tile5.button1,{qst:CONTINUE}
+EventInventoryListClueFailure_Tile5.text,Your fingers close around the paper, your landing however was less than graceful. Hitting the deck hard you aggravate a past injury, suffer one face down damage and flip one damage face up.\n\nThe tattered list has the header  "The Centaur Company". It appears to be an Inventory of the Pharmaceutical supplies contained in the crate. You can't make out much but, but there is an entry that refers to "Part One" of a serum. It is an Orange liquid with the number 2734.\n\nYou place the paper in your Journal and add a note explaining your findings.\n\nAny Investigator can review evidence collected by interacting with the Old Journal in the Items menu.\n\nRemove the Search token
+EventInventoryListClueFailure_Tile5.button1,{qst:CONTINUE}
+TokenWarehouseExplore_Tile16.text,Double doors lead into what you believe to be a warehouse. The doors are reinforced with metal banding and there is a coded lock preventing access.
+TokenHoldingCellMetalCabinet_Tile21.button1,{qst:ACTION_INVESTIGATE}
+TokenSheriffExplore_Tile15.text,The Sheriff's Office door is closed and barricaded.\nYou can see a figure moving inside.
+TokenBookShopExplore_Tile13.text,The sign above the door reads "The Books Cover".\n\nThe door appears to be barricaded from the inside and no lights are on, however you hear a faint whimpering sound from inside.
+TokenBookShopExplore_Tile13.button1,{action} Knock on the door
+EventPlaceWarehouseEastAlley_Tile20.button1,{qst:CONTINUE}
+EventSheriffOfficeWhatsHappened_Tile15.text,Honestly, I don't know. It all happened a couple of weeks back. A ship docked in the harbour, when I enquired the mayor told me to not get involved. So naturally I asked around a bit. Apparently some high profile Doctor was stopping here on her way through, but I found it odd she was still here a week later.\n\nAnyway, a week or so ago I was moving my boat to the shop for repairs when I saw the Research group hastily board their ship and depart. I found it odd, they left most of their cargo on the dock and even a couple of their Researchers behind. You can find them with the rest of the folk downstairs.\n\nLater that same day there were reports of people falling ill, an emergency infirmary to care for the sick was set up next door. Then a few days later violence began to erupt in the streets. Frightened townsfolk turned up in my office trying to find a safe place. I took as many as I could in and set up a broadcast to tell people to come here.\n\nHowever with the groups of creatures roaming the streets i've had to block and barricade the door. I was unlucky enough to encounter that group you dealt with outside, i'm sure I recognise some of them, under those twisted features..."\nThe Sheriff says with a sigh.\n\nGain one {clue} token
+EventPlaceWarehouseEastAlley_Tile20.text,Behind the hidden door you see a warehouse that appears to have been hastily set up as an infirmary. Bodies unmoving, litter the floor on makeshift beds and stretchers.\n\nPlace the {c:TileWarehouse_Tile20} tile and walls as indicated\n\nRemove all Explore token leading to this tile
+TokenLabBigNastyRoom_Tile14.button1,{qst:CONTINUE}
+TokenHoldingCellScientistPerson_Tile21.text,Dr Mai Chan seems like a pleasant enough person, but she seems a little distracted and there is a hint of sadness in her eyes.
+\nIf variables, add additional dialog about a cure if certain clue is gain? Add clue person in house? Maybe guy that turns to zombie after dialog about cure? Maybe he escaped lab and is trying to get back in for cure?
+SpawnLabZombie1_Tile14.text,A creature is strapped to a chair. At the sight of you it begins to growl and writhe, increasing in ferocity.\n\nUnder the violent movements the straps strain, then snap.\n\nSpawn a Zombie in the space indicated
+EventPlaceSheriffOfficeExplore_Tile15.text,Another building appears at the end of the street has a sign above the door, which reads "Sheriff's Office".\n\nPlace an Explore token as indicated
+TokenHoldingCellScientistPerson_Tile21.button1,{action} Speak with Dr Chan
+EventEastAlleyHiddenDoorNoStealth_Tile9.button1,{qst:CONTINUE}
+TokenEastAlleyHiddenDoor_Tile9.text,There is a similar blue poster to the one concealing the Laboratory Entrance, on the wall in the East Alley.
+TokenAbandonedHouseExplore_Tile12.button1,{action} Enter house
+TokenPlazaSignPostSearch_Tile6.button1,{qst:ACTION_INVESTIGATE}
+EventPlaceSignSearch_Tile6.text,At the edge of the plaza is a sign post. \n\nPlace a Search token as indicated
+TokenBeachSearch_Tile4.text,The hut is raised on stilts, the door is slightly ajar. You can hear rustling from inside.
+TokenPlazaSightToken_Tile6.text,The docks back onto a paved plaza.\n\nInvestigators in the Rental Dock  or Pier  may interact with this token
+SpawnBeachHutMonster_Tile3.button1,{qst:CONTINUE}
+TokenPlazaSightToken_Tile6.button1,{qst:INVESTIGATE}
+EventPlacePlazaSight_Tile5.button1,{qst:CONTINUE}
+EventPlacePlazaTile_PlaceTile6.button1,{qst:CONTINUE}
+EventPlaceNorthStreet_PlaceTile08.button1,{qst:CONTINUE}
+EventPlaceSignSearch_Tile6.button1,{qst:CONTINUE}
+EventPlacePlazaBodySearch_Tile6.button1,{qst:CONTINUE}
+TokenPlazaBody_Tile6.text,A man is slumped next to the fountain. His skin is pale and he lays in a pool of his own blood. He is twitching you may be able to save him or speak with him before he bleeds out. 
+EventPlacePlazaBodySearch_Tile6.text,Slumped next to the fountain is a body, it does not appear to be moving.\n\nPlace a Search token as indicated
+TokenPlazaBody_Tile6.button1,{action} Help the man
+EventInvestigatePlazaBodySearch_Tile6.text,You reach the man just too late to be of any help, he gasps his final breath and slumps forward. It looks like he managed to escape whatever had attacked him, but not before sustaining fatal injuries.\n\nNext to the body is a small bag, rifling through it you find something of use.\n\nTake the {c:QItemItem_Tile6} common item and remove the Search token
+EventInvestigatePlazaBodySearch_Tile6.button1,{qst:CONTINUE}
+TokenPlazaSignPostSearch_Tile6.text,At the edge of the plaza stands a sign post.
+EventPlaceNorthStreetSight_Tile07.text,The street continues to the North of the plaza.\n\nPlace a Sight token as indicated
+EventPlaceNorthStreetSight_Tile07.button1,{qst:CONTINUE}
+TokenNorthStreetSight_Tile7.button1,{qst:CONTINUE}
+TokenEastAlleySight_Tile7.text,The street leads to a dark alley on the east side of the Plaza.\n\nInvestigators in the {c:TileEastAlley_Tile9} tile may investigate this token
+EventPlaceNorthStreet_PlaceTile08.text,The street runs parallel to the docks, which ends at a small beach. The street turns right at a large coastal wall.\n\nPlace the {c:TileNorthStreet_Tile8}, {c:TileStreetCorner_Tile17}, {c:TileBeach_Tile4} tiles and a Wall as indicated.\n\nRemove the Sight token
+EventPlaceSheriffStreet_PlaceTile16.text,The stone of the street continues but gradually gets more worn, this part of the street is obviously more heavily used than the others.\n\nPlace the {c:TileSheriffOfficeFront_Tile15} and {c:TileStreetEnd_Tile16} tiles as indicated\n\nRemove the Sight token
+TokenEastAlleySight_Tile7.button1,{qst:INVESTIGATE}
+TokenWarehouseLockedChest_Tile20.button1,{action} Smash open
+EventPlaceEasyAlleySight_Tile07.button1,{qst:CONTINUE}
+EventPlaceEasyAlleySight_Tile07.text,The street to the East leads into a dark side alley.\n\nPlace a Sight token as indicated
+EventPlaceEastAlleyTile_PlaceTile09.text,The alley is dark and claustrophobic.\n\nPlace the {c:TileEastAlley_Tile9},  {c:TileEastAlley2_Tile11} tiles and walls as indicated.\n\nPlace darkness in all spaces\n\nRemove the Sight token
+EventPlaceAbandonedHouseExplore_Tile12.button1,{qst:CONTINUE}
+EventSearchShelvesHidDoorNoStealth_Tile_20.text,Sliding the shelf aside you reveal a hidden door.\n\nRemove the Wall tokens to reveal the door as indicated.
+EventWarehouseSearchShelvesHidDoorSuccess_Tile20.button1,{qst:CONTINUE}
+EventSearchShelvesHidDoorFailed_Tile_20.button1,{qst:CONTINUE}
+TokenAbanHouseSearch_Tile12.button1,{qst:ACTION_INVESTIGATE}
+EventPlazaSignSearch_Tile06.text,The top of the sign reads "Ambersby Docks". There are directions marked on the sign post.\n\nOne points to the street to the North and lists <i>Sheriffs Office</i> and the <i>Books Cover</i> which you assume is a shop. The other points to an alley to the east and simple says <i>East Street - Residences</i>.\n\nGain one {clue} token.\n\nRemove the Search token
+EventKnockShopInfluance_Tile13.text,You explain who you are and why you are here and exchange a few words with the frightened man on the other side. While he seems friendly enough, he does not want to open the door. Test {influence}.
+EventReadManifestInventory_PlayerInv.button1,{qst:CONTINUE}
+TokenBerth3ListClue_Tile5.text,A slip of paper is attached to the side of a crate and is fluttering in the wind.
+EventPlaceBookShopExplore_Tile13.button1,{qst:CONTINUE}
+EventPlaceSearchBeach_Tile4.text,There is a small hut on the beach.\n\nPlace a Search token as indicated
+EventPlaceSearchBeach_Tile4.button1,{qst:CONTINUE}
+UISplashContinue.uitext,Start
+UISplashContinue.button1,{qst:CONTINUE}
+EventStartGame.button1,{qst:CONTINUE}
+UISplashTitle.uitext,Stress and Strain
+UISplashClueText.uitext,Each Investigator starts with two {clue} tokens
+UISplashClueContinue.uitext,{qst:CONTINUE}
+UISplashClueContinue.button1,Button1
+EventCaptainGoesBelowDecks_Tile1.text,The captain calls out to you.\n\n"Find the Office and pay our Moorin', willl ya. I got some repairs to do... Oh an' get some fuel, we ain't goin' nowhere without it"\n\nHe then clambers below decks.\n\nYou will not be able to leave this Island unless you find fuel for the ship.
+EventCaptainGoesBelowDecks_Tile1.button1,{qst:CONTINUE}
+EventPlaceNorthStreetEndSight_Tile8.button1,{qst:CONTINUE}
+TokenNorthStreetEndSight_Tile8.text,The Street continues.\n\nInvestigators in the {c:TileStreetCorner_Tile17} tile may interact with this token
+EventPlaceNorthStreetEndSight_Tile8.text,The street continues. \n\nPlace a Sight token as indicated
+TokenNorthStreetEndSight_Tile8.button1,{qst:INVESTIGATE}
+TokenBookShopExplore_Tile13.button2,{action} Attempt to break the door down
+EventBookKnockToEnter_Tile08.text,You bang on the door and wait. After a few moments and having received no response, you bang on the door a little harder.\n\nAfter a few moments you hear shuffling and a meek voice whispers.\n\n "Go Away... they'll hear you with all that noise"
+EventBookKnockToEnter_Tile08.button1,{qst:CONTINUE}
+EventSmashShopCheck_Tile08.button1,{qst:PASSED}
+EventSmashShopCheck_Tile08.button2,{qst:FAILED}
+EventSmashBookShopFail_Tile08.button1,{qst:CONTINUE}
+EventSmashBookshopSuccess_Tile08.text,The door splinters and crashes open.\n\n
+EventSmashBookshopSuccess_Tile08.button1,{qst:CONTINUE}
+EventPlaceCoweringShopKeep_Tile13.text,A man yelps and scurries away from the door. He cowers in the corner, obviously afraid for his life.\n\nPlace a Person token as indicated
+EventPlaceCoweringShopKeep_Tile13.button1,{qst:CONTINUE}
+TokenScaredShopKeep_Tile13.text,The shopkeeper cowers in a corner. He does not want to engage with you.
+TokenScaredShopKeep_Tile13.button1,{action} Intimidate the shopkeeper
+SpawnShopSmashZombieSuccess_Tile08.button1,{qst:CONTINUE}
+EventMoveInToShop_Tile08.text,You may move one space into the explored area
+SpawnSmashBookShopZombieFail_Tile08.text,Attracted by the noise, a creature lumbers around the corner of the street.\n\nSpawn a Zombie
+EventMoveInToShop_Tile08.button1,{qst:CONTINUE}
+EventSmashShopCheck_Tile08.text,You kick at the door attempting to break it open. Test {strength} (2).
+EventPlaceBookShopSmashed_PlaceTile08.text,The door cracks then buckles under the force of your blow. You push furniture away from behind the door to reveal a dark book store.\n\nPlace the {c:TileBookStore_Tile13} tile then place Darkness in both tiles\n\nRemove the Explore token
+EventPlaceShopKeepHappy_Tile13.text,A hunched, grey haired man ushers you in and closes the door. \n\nHe locks the door and turns to you, his face relaxes slightly.\n\nPlace a Person token as indicated
+EventSmashBookShopFail_Tile08.text,You kick at the door making a lot of noise but failing to gain entry.
+SpawnSmashBookShopZombieFail_Tile08.button1,{qst:CONTINUE}
+EventKnockShopInfluance_Tile13.button1,{qst:CONTINUE}
+EventPlaceBookShopKnocked_Tile13.text,A faint light flickers on in the Book Shop window. A moment later you hear the sounds of furniture being moved and deadbolts being unlocked.\n\nA short while later the door opens. \n\nPlace the {c:TileBookStore_Tile13} tile.\n\nRemove the Explore token
+EventPlaceEastAlleyTile_PlaceTile09.button1,{qst:CONTINUE}
+EventPlaceBookShopKnocked_Tile13.button1,{qst:CONTINUE}
+EventPlazaSignSearch_Tile06.button1,{qst:CONTINUE}
+EventPlaceShopKeepHappy_Tile13.button1,{qst:CONTINUE}
+TokenShopKeepHappy_Tile13.button1,{action} Speak to the Shop Keeper
+EventPlacePlazaTile_PlaceTile6.text,The plaza looks slightly neglected, sand has blown in to form small banks in several places and weeds grow between the flag stones. In the center is an ornate water fountain. \n\nPlace the Town Square  tile and Street Corner 3  and remove the Sight token
+TokenBookStoreSearch_Tile13.button1,{qst:ACTION_INVESTIGATE}
+EventPlaceBookShopSearch_Tile13.button1,{qst:CONTINUE}
+EventPlaceBookShopSearch_Tile13.text,The walls are lined with book cases. Most of the books look like sale items, which are not of much interest to you.\n\n However on a desk in the far corner are several thick dusty tomes. \n\nPlace a Search token as indicated
+UIInvestigatorPhaseText.uitext,Investigator Phase. Click to continue
+UIInvestigatorPhaseText.button1,Button1
+EventMythosDeadly.button1,{qst:CONTINUE}
+EventBoatSight_PlaceDock_PlaceTile2.text,Approaching the edge of the ship you peer through the mist. You can make out a jetty with a small Rental Office at the end. Above the Office a sign reads "Welcome to Ambersby".\n\nPlace the {c:TileDock_Tile2} and {c:TileDockShop_tile3} tiles.\n\nRemove the Sight token
+EventPlaceBellSearch_Tile2.text,At the end of the pier is a large fog bell, probably used to signal ships.\n\nPlace a Search token as indicated
+EventSetVARS_PlaceBoat_PlaceTile1.text,The ship thrashes in the turbulent waters and you narrowly avoid crashing into the jetty.\n\nShaken, you tie the ship to the closest mooring post.\n\nPlace the {c:TileBoat_Tile1} tile
+EventPlacePlazaSight_Tile5.text,Behind the dock, steps lead down to a paved plaza.
+TokenShopKeepHappy_Tile13.text,The shop keeper leans heavily on a walking stick, he is an old man, grey haired and frail looking.\n\nHe looks at you with a friendly smile.
+EventPlaceSheriffStreet_PlaceTile16.button1,{qst:CONTINUE}
+EventPlaceWarehouseExplore_Tile16.button1,{qst:CONTINUE}
+TokenWarehouseExplore_Tile16.button1,{action} Attempt to break in
+EventPlaceWarehouseExplore_Tile16.text,One of the buildings has a large double door. It appears to have a complex lock and is reinforced with metal banding.\n\nPlace an Explore token as indicated
+EventPlaceSheriffOfficeExplore_Tile15.button1,{qst:CONTINUE}
+SpawnZombieRiotSheriff_Tile15.text,Outside the Sheriff's Office is a large group of creatures, scratching at the door.\n\nSpawn a Riot as indicated
+SpawnZombieRiotSheriff_Tile15.button1,{qst:CONTINUE}
+EventPlaceEasyAlleySearch_Tile9.text,To one side of the Alley is a rubbish bin, there appears to be a body under it.\n\nPlace a Search token as indicated
+EventPlaceEasyAlleySearch_Tile9.button1,{qst:CONTINUE}
+EventPlaceEastAlleyWarehouseSide_PlaceTile20.text,Beyond is a dark and claustrophobic alley.\n\nPlace the {c:TileEastAlley_Tile9},  {c:TileEastAlley2_Tile11} tiles and walls as indicated.\n\nPlace darkness in all spaces
+EventPlaceAbandonedHouseExplore_Tile12.text,At the end of the alley is a small house.\n\nPlace an Explore token as indicated
+TokenEastAlleySearch_Tile9.text,You notice a body is half crushed under a rubbish bin, you cannot see if they are breathing.
+EventEastAlleySearchInvestigate_Tile9.text,You crouch down close to the body to check its pulse or failing that, its pockets.\n\nCatching you by surprise the body lurches up and attempts to grab you. Test {agility} (2)
+TokenWarehouseExplore_Tile16.button2,{action} Use the coded lock
+EventOpenWarehouseLockWithCode_Tile20.text,You enter the code given by the Scientist. \n\nA mechinism makes several satisfying clicks as it unlocks. You tentatively push open one of the doors and peer in.
+EventPlaceWarehouseStealth_PlaceTile20_NotUsed.button1,{qst:CONTINUE}
+EventPlaceWarehouseHidDoor_Tile20.text,On the far wall there are several shelves with dust sheets thrown over them. One of the sheets flutters softly.
+PuzzleOpenWarehouseNoCode.button1,{qst:COMPLETE}
+EventPlaceLabEquipment_Tile14.text,To one side of the Laboratory is a strange apparatus.\n\nPlace a Search token as indicated
+EventWarehousAttemptBreakIn_Tile_20.button2,{qst:FAILED}
+EventWarehousAttemptBreakIn_Tile_20.button1,Attempt
+EventWarehouseSmashedInSuccess_Tile20.text,You batter a hole between the lower metal banding.\n\nCrouching to look inside you see a warehouse that appears to have been hastily set up as an infirmary. Bodies unmoving, litter the floor on makeshift beds and stretchers.\n\nPlace the {c:TileWarehouse_Tile20} tile and walls as indicated\n\nRemove the Explore token
+SpawnWarehouseSpawnThrallSmashNoises_Tile20.button1,{qst:CONTINUE}
+EventPlaceWarehouseHidDoor_Tile20.button1,{qst:CONTINUE}
+EventWarehouseSmashDoorFailed_Tile20.button1,{qst:CONTINUE}
+EventWarehouseSmashDoorFailed_Tile20.text,You batter at the door to no avail. From inside you hear a screeching howl; then sounds of fantic movement. You pause for several moment until the noise dies down.
+EventPLaceHidDoorWarehouseThrallActive_Tile20.button1,{qst:CONTINUE}
+EventWarehouseLockedChestThrallActive_Tile20.text,To the side wall is a locked chest.\n\nPlace a Search token as indicated
+EventPLaceHidDoorWarehouseThrallActive_Tile20.text,To the far wall there are several shelves with dust sheets thrown over them. One of the  dust sheets appears to be fluttering softly.
+TokenWarehouseLockedChest_Tile20.button2,{action} Pick lock
+SpawnWarehouseSpawnThrallSmashNoises_Tile20.text,Alerted by the noise the figure jumps to its feet, faces you and snarls. It does not appear to have eyes, in their place only rent flesh. It looks like the creature has scratched out its own eyes out.\n\nSpawn a Thrall in the indicated space
+TokenWarehouseLockedChest_Tile20.text,To the side wall is a locked chest.
+EventWarehouseLockedChestSmash_Tile20.button2,{qst:FAILED}
+EventWarehouseLockedChestSmash_Tile20.text,You kick hard at what you think is a weak spot on the side of the chest. Test {strength} (2)
+EventOpenWarehouseLockNoCode_PlaceTile20.text,A mechanism makes several satisfying clicks as it unlocks. You tentatively push open one of the doors and peer in.\n\nPlace the {c:TileWarehouse_Tile20} tile and walls as indicated.\n\nRemove the Explore token
+EventWarehouseSmashChestNoStealth_Tile_20.text,You smash the chest and the contents spill out of the side. While there are no items of use, you do find papers detailing the number of patients being treated.\n\nGain one {clue}.\n\nRemove the Search token.
+EventWarehousePickLock_Tile20.text,You attempt to pick the lock on the chest, Test {agility} (2).
+EventWarehousePickLock_Tile20.button1,{qst:PASSED}
+EventWarehousePickLock_Tile20.button2,{qst:FAILED}
+EventWarehouseLockedChestThrallActive_Tile20.button1,{qst:CONTINUE}
+EventOpenWarehouseLockWithScienceCode_Tile20.text,You enter the code given by the Scientist. \n\nA mechanism makes several satisfying clicks as it unlocks. You tentatively push open one of the doors and peer in.\n\nPlace the {c:TileWarehouse_Tile20} tile and walls as indicated.\n\nRemove the Explore token
+EventWarehouseSmashChestSuccessStealth_Tile20_NOTUSED.button1,{qst:CONTINUE}
+EventOpenWarehouseLockNoCode_PlaceTile20.button1,{qst:CONTINUE}
+EventOpenWarehouseLockWithCode_Tile20.button1,{qst:CONTINUE}
+EventPlaceEastAlleyWarehouseSide_PlaceTile20.button1,{qst:CONTINUE}
+EventPlaceWarehouseHidDoorThrallDormant_PlaceTile20.text,To the other side of the room is a large figure, crouching over a body and facing in your direction. 
+\nAs your eyes adjust you can see it has has no eyes, in their place only rent flesh.. It looks as if the creature has scratched out its own eyes. You hear slurping and crunching noises as it feasts on one of its victims.
+EventPlaceWarehouseHidDoorThrallDormant_PlaceTile20.button1,{qst:CONTINUE}
+EventWarehouseSmashedInSuccess_Tile20.button1,{qst:CONTINUE}
+EventPlaceWarehouseLockedChest_Tile_20.button1,{qst:CONTINUE}
+SpawnWarehouseSpawnThrallNoisesAfterTokensLaid_Tile20.button1,{qst:CONTINUE}
+EventPlaceWarehouseLockedChest_Tile_20.text,Against one wall is a locked chest.
+TokenWarehouseHidDoorSearch_Tile20.button1,{action} Search Shelves
+TokenDormantThrall_Tile20.text,There is a creature crouched over a corpse, it appears to be feeding on the victim's entrails.\n\nIt has not noticed you.
+EventSearchShelvesHidDoorStealth_Tile_20.text,Looking over your shoulder you are relieved that the creature has still not noticed you.\n\nYou attempt to move the shelves. Test {agility} (2)
+EventWarehouseAttackThrallMelee_Tile20.text,You sneak close to the thrall, picking up a sizable metal spike that you think would make a good spear. As it looks up to sniff the air you drive the spike down hard at the creature, Test {strength} (2).
+TokenWarehouseHidDoorSearch_Tile20.text,There are several shelves against the wall, each has a dust sheets thrown over it. One of the  dust sheets appears to be fluttering softly from what appears to be a draft.
+EventSearchShelvesHidDoorStealth_Tile_20.button1,{qst:PASSED}
+EventSearchShelvesHidDoorStealth_Tile_20.button2,{qst:FAILED}
+TokenDormantThrall_Tile20.button2,{action} Attack Melee
+EventWarehouseSmashChestFailedStealth_Tile_20.text,You batter at the chest, failing to gain access. During the exertion you aggravate an old injury.\n\nFlip one damage face up.
+EventWarehouseLockedChestSmashStealth_Tile_20.text,The sound of smashing wood echoes through the room as you smash open the chest. While there are no items of use, you do find papers detailing the number of patients being treated.\n\nGain one {clue}.\n\nRemove the Search token.
+EventWarehouseSmashChestNoStealth_Tile_20.button1,{qst:CONTINUE}
+EventWarehouseLockedChestSmashStealth_Tile_20.button1,{qst:CONTINUE}
+EventWarehouseSmashChestFailedStealth_Tile_20.button1,{qst:CONTINUE}
+SpawnWarehouseSpawnThrallNoisesAfterTokensLaid_Tile20.text,Alerted by the noise the figure jumps to its feet, faces you and snarls. It does not appear to have eyes in their place only rent flesh, it looks like the creature has scratched out its own eyes.\n\nRemove the Interact token and spawn a Thrall in the indicated space
+EventWarehouseLockedChestSmash_Tile20.button1,{qst:PASSED}
+EventWarehouseSmashChestStealthContents_Tile20.text,The contents spill from the side of the broken chest. You quickly snatch up something you feel might be of use.\n\n Take the {c:QItemWarehouseCommonItem} common item
+EventWarehouseSmashChestStealthContents_Tile20.button1,{qst:CONTINUE}
+TokenSHORTCUTREMOVEONCEDONE.button1,SpawnLab
+EventWarehousAttemptBreakIn_Tile_20.text,You pound at the door trying to find a weakness. Test {strength}.
+PuzzleOpenWarehouseNoCodeNoSealth_Tile_20.button1,{qst:COMPLETE}
+EventSearchShelvesHidDoorNoStealth_Tile_20.button1,{qst:CONTINUE}
+EventWarehousePickLockSuccess_Tile20.text,You quietly and adeptly pick the lock. After a few moments it opens with a satisfying click. While there are no items of use, you do find papers detailing the number of patients being treated.\n\nGain one {clue}.\n\nRemove the Search token.
+TokenLabEquipmentFirst_Tile14.button1,{qst:ACTION_INVESTIGATE}
+EventSearchShelvesHidDoorFailed_Tile_20.text,You remove the dust sheets and slide the shelf to one side revealing a Hidden Door.\n\nYou notice too late as a Lead Pipe falls from one of the shelves and clatters loudly to the floor.\n\nPlace the {c:QItemLeadPipe} common item in your space.\n\nRemove the Search token and wall tokens as indicated
+SpawnWarehouseSpawnWeakenedThrallSuccessAttack_Tile20.button1,{qst:CONTINUE}
+TokenDormantThrall_Tile20.button1,{action} Attack Ranged
+EventWarehouseAttackThrallRanged_Tile_20.text,There are several items in the warehouse close at hand. You pick up a sizeable metal spike, which you think will make a good javelin. \n\nTaking careful aim you hurl it at the creature. Test {agility} (2)
+EventWarehouseAttackThrallRanged_Tile_20.button1,{qst:PASSED}
+EventWarehouseAttackThrallRanged_Tile_20.button2,{qst:FAILED}
+SpawnWarehouseSpawnWeakenedThrallSuccessAttack_Tile20.text,The metal spike impales the creature in the shoulder with a ugly sounding crunch. With a screech the creature lurches to its feet, ripping out the spike from its shoulder. Its arm hangs limp as it drops the spike to the ground and makes a move towards you.\n\nPlace the {c:QItemLeadPipe} common item in the space space indicated.\n\nSpawn a Thrall in the space and deal two damage to it
+SpawnWarehouseSpawnThrallRAttackFailed_Tile20.button1,{qst:CONTINUE}
+\nPlace the {c:QItemLeadPipe} common item in the space indicated, then Spawn a Thrall int he same space
+EventWarehouseAttackThrallMelee_Tile20.button1,{qst:PASSED}
+SpawnWarehouseAttackThrallMFailed_Tile20.button1,{qst:CONTINUE}
+\nPlace the {c:QItemLeadPipe} common item in the indicated space, then spawn a Thrall in the same space
+SpawnWarehouseSpawnThrallRAttackFailed_Tile20.text,The metal spike sails past the thrall and impacts the wall behind. It screeches, turning its head towards the noise, then back in your direction. Its nostrils flair as it makes a move towards you.\n\nPlace the {QItemLeadPipe} in the space indicated, then Spawn a Thrall on top of it
+\n\nRemove the Interact token.\n\nPlace the {c:QItemLeadPipe} common item in the space indicated, then spawn a Thrall in the same space
+EventWarehouseAttackThrallMelee_Tile20.button2,{qst:FAILED}
+EventSheriffAttack.button2,No Investigators in range
+SpawnWarehouseAttackThrallMFailed_Tile20.text,The creature moves as if it can feel your presence, missing your mark you strike the floor hard. You lose your grip on the metal spike and it clatters to the floor.\n\nPlace the {c:QItemLeadPipe} common item in the space and spawn a Thrall on top of it
+EventWarehouseSearchShelvesHidDoorSuccess_Tile20.text,You remove the dust sheet and quietly clear the shelf of its contents. You catch a {c:QItemLeadPipe} before it falls, from its precariously balanced position against the shelf.\n\nSliding the shelf aside you reveal a hidden door.\n\nTake the {c:QItemLeadPipe} common item.\n\nRemove the Search token and Wall tokens as indicated
+EventSheriffOfKnockRiotDeadHeardRadio_Tile15.button1,Convince him to let you in
+EventSheriffOfKnockRiotDeadHeardRadio_Tile15.text,You bang on the door, explaining that you had heard the broadcast and needed shelter.\n\nA hesitant voice responds:\n\n"Uhhh... Sorry friend. I.,. I just can't let you in... I can't risk it"
+EventWarehousePickLockSuccess_Tile20.button1,{qst:CONTINUE}
+EventOpenWarehouseLockWithScienceCode_Tile20.button1,{qst:CONTINUE}
+EventWarehousePickLockFailed_Tile_20.text,You fumble at the lock for a few minutes before giving up.
+EventWarehousePickLockFailed_Tile_20.button1,{qst:CONTINUE}
+EventPlaceWarehouseStealth_PlaceTile20_NotUsed.text,Place Warehouse
+TokenSheriffExplore_Tile15.button1,{action} Attempt to break open the door
+EventSheriffsOfficeSMASHdoor_Tile15.text,You attempt to batter down the door. Test {strength}
+EventSheriffOfficeSMASHDoorSuccess_Tile15.text,You kick the door hard, splintering the wood around the locking mechanism. \n\nMomentum carries you into the room, move one space into the explored area.
+TokenSheriffExplore_Tile15.button2,{action} Ask to be let in
+EventPlaceSheriffOffice_PlaceTile15.button1,{qst:CONTINUE}
+EventSheriffOfficeSMASHDoorFailed_Tile15_Unused.button1,{qst:CONTINUE}
+EventSheriffOfficeSMASHDoorSuccess_Tile15.button1,{qst:CONTINUE}
+EventPlaceSheriffOffice_PlaceTile15.text,The office is in two sections; a front lobby and a back office, the two are separated by a counter. Above the counter are bars intended to stop unauthorised access.\n\nRemove the Explore token
+EventSheriffsOfficeSMASHdoor_Tile15.button1,Attempt
+EventSheriffOfficeKNOCKriotactive_Tile15.text,You bang on the door, calling to be let in.\n\nA gruff voice responds:\n\n"Are you mad?! I'm not opening this door for anyone while those things are alive"
+EventSheriffOfficeKNOCKriotactive_Tile15.button1,{qst:CONTINUE}
+EventSheriffOfKNOCKriotdeadNoCode_Tile15.text,You bang on the door, calling to be let in.\n\nA voice responds:\n"Sorry friend, I can't just let you in. I just can't risk it".
+EventSheriffOfKNOCKriotdeadNoCode_Tile15.button1,Convince them to let you in
+EventSheriffOfKnockRiotDeadHeardRadio_Tile15.button2,Attempt to break open the door
+EventSheriffOfKNOCKInfluanceEASY_Tile15.button1,{qst:PASSED}
+EventSheriffOfKNOCKInfluanceEASY_Tile15.button2,{qst:FAILED}
+EventSheriffOfKNOCKInfluanceEASY_Tile15.text,You explain what you have seen and done so far and how you defeated the Zombie's trying to break into his office. Test {influence}+1 (2).
+EventSheriffOfKnockInfluanceSuccess_Tile15.text,For a long time there is no response... then finally the voice responds:\n\n"Ok.. Ok... I'll let you in."\n\nYou hear sounds of momentment and furniture being moved. A few moments later you hear the sound of opening deadbolts and the door swing opens.
+EventSheriffOfKnockInfluanceSuccess_Tile15.button1,{qst:CONTINUE}
+EventSheriffOfKNOCKInfluanceFail_Tile15.text,The voice responds immediately.\n\n"I said no... Please leave"
+EventSheriffOfKNOCKInfluanceFail_Tile15.button1,{qst:CONTINUE}
+EventSheriffOfKNOCKriotdeadNoCode_Tile15.button2,Attempt to force the door
+EventSheriffOfKNOCKInfluanceHard_Tile15.text,You explain what you had seen and done so far, how you have defeated the Zombie's trying to break into his office. Test {influence} (2)
+EventSheriffOfKNOCKInfluanceHard_Tile15.button1,{qst:PASSED}
+EventSheriffOfKNOCKInfluanceHard_Tile15.button2,{qst:FAILED}
+SpawnPlaceAngrySheriff_Tile15.text,The Sheriff fires off a warning shot then levels his gun at you.\n\nPlace a Person token, this represents Sheriff Robins
+SpawnPlaceAngrySheriff_Tile15.button1,{qst:CONTINUE}
+EventPlaceSheriffFriendly_Tile15.text,The Sheriff peers out of the door and then walks back towards the counter.
+EventPlaceSheriffFriendly_Tile15.button1,{qst:CONTINUE}
+EventSheriffOfficeBarricade_Tile15.button1,{qst:CONTINUE}
+EventSheriffOfficeBarricade_Tile15.text,Some furniture left over from the old barricade stands behind the door. They could be used to block the door.\n\nPlace a Barricade as indicated
+CustomMonsterAngrySheriff_Tile15.info,-
+EventSheriffAttack.button1,Investigators in Range
+CustomMonsterAngrySheriff_Tile15.monstername,Sheriff Robins
+EventSheriffAttack1.text,Sheriff Robins picks the largest target and squeezes off a few rounds. You attempt to take cover behind a metal cabinet. \n\nThis attack effects the Investigator in range with the highest {strength}. \n\nTest {agility} (2). If you succeed you managed to make it into cover cover as the bullets ricochet around you. If you fail, you move too slowly and one of the bullets hits its mark, suffer 2 face down damage.
+EventEvadeSheriff.text,The sheriff attempts takes a shot at you as you try to avoid him. \n\nSuffer 2 face down damage ({agility} negates).
+EventEvadeSheriff.button1,{qst:CONTINUE}
+EventHorrorSheriff.text,The Sheriff levels his gun at you and shouts for you to drop your weapons.
+EventHorrorSheriff.button1,Drop your weapons
+EventBigNastyMeleeAttack1.text,The behemoth raises several of its mangled limbs and smashes them down on you. You brace for impact, suffer three face down damage {strength} negates.
+EventSheriffAttack1.button1,{qst:CONTINUE}
+EventSheriffAttack2.text,Sheriff Robins picks the closest target, you pre-empt the shot and attempt to distract him by throwing a chair towards him.\n\nThis attack effects the Investigator in range with the highest {agility}.\n\n\nTest {strength} (2). If you succeeds, the wooden chair crashes against the bars above the counter distracting Sheriff Robins and his shot sails wide. If you fail Sheriff Robins holds his nerve and the shot catches you in the leg, suffer 2 face down damage. 
+EventSheriffAttack2.button1,{qst:CONTINUE}
+EventSheriffAttack3.button1,{qst:CONTINUE}
+EventSheriffAttack3.text,Sheriff Robins picks a target at random, You twist your body to avoid the shot. This attack affects the Investigator in range with the highest {lore}.\n\nSuffer 3 face down damage {agility} negates as the bullet grazes you.
+EventSheriffAttack4.text,Sheriff Robins fires shots randomly into the room.\n\nThis attack effects the Investigator in range with the lowest {agility}.\n\nThe bullets fire around you as you duck for cover. Test {will} (2). If you succeed you steel your nerve, realising that no bullets have hit you. If you fail, despite being unharmed you are shaken by the ordeal, suffer 1 face down horror and become Dazed.
+EventSheriffAttack4.button1,{qst:CONTINUE}
+TokenSheriffOfficeBarricadeHostile_Tile15.text,The door to the office is barricaded shut.\n\nInvestigators may not move into the office space while this token is in place.
+TokenSheriffOfficeBarricadeHostile_Tile15.button1,{action} Attempt to break through the barrier
+EventPlaceSheriffBarricadeHostile_Tile15.text,There is a hastily constructed barricade blocking the entrance to the office. This is obviously the Sheriff's second line of defence.\n\nPlace a Barricade token as indicated.\n\nInvestigators may not move into the right hand tile of the {c:TileSheriffOfficeFront_Tile15} tile while this token is in place
+EventPlaceSheriffBarricadeHostile_Tile15.button1,{qst:CONTINUE}
+EventSheriffOfSMASHMoveBarricade_Tile15.text,You attempt to batter down the barricade, seeing an opportunity Sheriff Robins takes a shot.\n\nTake 2 face down damage {agility} negates.
+EventSheriffOfSMASHMoveBarricade_Tile15.button1,{qst:CONTINUE}
+EventMoveBarricade.text,You force your way through the barricade, knocking furniture aside.\n\nMove your investigator to the right hand space on the {c:TileSheriffOfficeFront_Tile15} and remove the barricade token
+EventMoveBarricade.button1,{qst:CONTINUE}
+EventSheriffOfficeSMASHMoveBarricade2_Tile15.text,You barge through the barricade in an attempt to close the gap with Sheriff Robins before he gets off a shot. \n\nTest {strength} (2). If you succeed you easily break through and close the gap before he can fire. If you fail a last minute shot catches you suffer 2 face down damage.
+EventSheriffOfficeSMASHMoveBarricade2_Tile15.button1,{qst:CONTINUE}
+EventSheriffOfficeMoveBrricadeSheriffDead_Tile15.button1,{qst:CONTINUE}
+EventSheriffDies.button1,{qst:CONTINUE}
+EventSheriffOfficeMoveBrricadeSheriffDead_Tile15.text,You move the makeshift barricade away from the door and step in.\n\nMove your investigator into the right hand space of the {c:TileSheriffOfficeFront_Tile15} tile and remove the barricade token
+EventSheriffDies.text,Sheriff Robins wails as he falls to the ground. As you go to his body you notice a first aid under the counter. You use the remaining supplies to patch yourself up.\n\nFlip one damage face down and discard one face down damage.
+EventPlaceFriendlySheriff_Tile15.button1,{qst:CONTINUE}
+TokenFriendlySheriff_Teil15.text,The Sheriff looks at you warily, one hand rests on his gun holster.
+EventPlaceFriendlySheriff_Tile15.text,The Sheriff turns and looks at you, hand on his holster. He looks warily of you.\n\nPlace a Person token as indicated.
+TokenFriendlySheriff_Teil15.button1,Speak to Sheriff Robins
+EventSheriffOfficeSpeakFriendShrfAllOptions_Tile15.button1,{action} Ask what's happening
+EventPlaceSheriffBacementExplore_Tile15.text,To the rear of the Office is a door. \n\nPlace an Explore token as indicated
+EventPlaceSheriffBacementExplore_Tile15.button1,{qst:CONTINUE}
+EventSheriffOfficeMoveIn_Tile15.button1,{qst:CONTINUE}
+TokenSheriffHoldingCellExplore_Tile15.button1,{qst:ACTION_INVESTIGATE}
+EventSheriffOfficeMoveIn_Tile15.text,You may move one space into the explored area
+TokenHoldingCellPeopleSearch_Tile21.text,At the back of the open holding cell are several towns folk talking in low voices. Few of the group seem eager to engage in conversation outside of the group, however your gaze stops on an individual wearing a long lab coat.\n\nRemove the Search token.\n\nPlace a Person token as indicated, this is Dr Chan
+\nNoticing your stares, she approaches you and introduces herself.
+\nRemove the Search token and replace it with a Person token, this is the Scientist Dr Mai Chan.
+EventPlaceHoldingCell_PlaceTile21.text,Steps lead down to a storage area.\n\nTo side of the storage area is a holding cell, the barred doors are wide open.\n\nPlace the {c:TileHoldingCell_Tile21} tile and walls as indicated.\n\nRemove the Explore token
+EventPlaceHoldingCell_PlaceTile21.button1,{qst:CONTINUE}
+EventPlaceHoldingCellPeopleGroup_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellMoveIn_Tile21.text,You may move one space into the explored area
+EventPlaceHoldingCellCrate_Tile15.text,In one corner there are several boxes.\n\nPlace a Search token as indicated
+EventPlaceHoldingCellCrate_Tile15.button1,{qst:CONTINUE}
+TokenHoldingCellBoxes_Tile21.text,The wooden boxes look old and damp, but there may be something of use in them.
+TokenHoldingCellBoxes_Tile21.button1,{qst:ACTION_INVESTIGATE}
+EventPlaceHoldingCellFuel_Tile15.text,In the other corner of the Storage area is a metal cabinet.\n\nPlace a Search token as indicated
+EventPlaceHoldingCellFuel_Tile15.button1,{qst:CONTINUE}
+EventPlaceHoldingCellPeopleGroup_Tile21.text,A group of people huddle in the corner of the holding cell. It appears the Sheriff has been protecting these people from the troubles outside.\n\nPlace a Search token as indicated
+EventSheriffOfficeWhatsHappened_Tile15.button1,{qst:CONTINUE}
+EventSheriffAskForHelp_Tile15.button1,{qst:CONTINUE}
+EventSheriffAskForHelp_Tile15.text,You explain how your ship ran out of fuel and you are stranded on this island before asking for his aid.\n\nThe Sheriff hesitates, he seems to understand your plight. \n\n"Sorry... I can't leave this place. We can't move this many people in this storm and I can't leave them. But... there is a fuel cannister in the Storage basement. Take that and get help." he replies.\n\nGain one {clue} token.
+EventSheriffOfficeSpeakFriendShrfAllOptions_Tile15.button2,{action} Ask for help
+EventSheriffOfficePersuadeSherrif_Tile15.text,You explain how you may be the only people in this town that can uncover what is causing the troubles. Test {influence} (2)
+EventSheriffOfficePersuadeSherrif_Tile15.button1,{qst:PASSED}
+EventSheriffOfficePersuadeSherrif_Tile15.button2,{qst:FAILED}
+EventSheriffPersuadeSuccess_Tile15.text,The Sheriff sighs "I suppose you're right. Here use this to patch yourself up" he reaches over the counter to a small first aid kit and hands it to you.\n\nYou use the few supplies remaining to patch yourself up, flip one damage and horror face down. Then discard one face down damage and one face down horror.
+EventSheriffPersuadeSuccess_Tile15.button1,{qst:CONTINUE}
+EventSheriffPersuadeFail_Tile15.text,As I said, I can't leave here. I have nothing else to offer you" he replies, you notice a slight look of guilt in his eye
+EventSheriffPersuadeFail_Tile15.button1,{qst:CONTINUE}
+EventEastAlleySearchFailed_Tile9.button1,{qst:CONTINUE}
+EventEastAlleySearchFailed_Tile9.text,You fail to avoid the creatures lunge and it rakes your arm causing it to bleed. Suffer 1 face down damage and become Dazed.\n\nYou stagger backwards out of the trapped creatures reach, giving it a wide berth as you pass.\n\nRemove the Search token
+EventSheriffOfficeSpeakFriendShrfAllOptions_Tile15.text,Sheriff Robbins taps his holster as you approach, a silent warning for you not to cause trouble.
+EventSheriffOfficeSpeakFriendlyShrfOnlyHelp_Til15.text,Sheriff Robbin's looks a little irritable from the questions.
+EventSheriffOfficeReplaceFriendlySheriff_Tile15.text,Having exhausted the conversation you leave the Sheriff to go about his business. He nods at you and moves back to a more defensible position behind the counter.\n\nRemove the Person token
+EventSheriffOfficeReplaceFriendlySheriff_Tile15.button1,{qst:CONTINUE}
+EventHoldingCellBoxesWill_Tile21.text,You open the boxes and are startled as a large black rat leaps out and scurries away.\n\nSuffer 1 facedown horror ({will} negates), from the jump scare.\n\nRemove the Search token
+EventHoldingCellBoxesWill_Tile21.button1,{qst:CONTINUE}
+TokenSheriffHoldingCellExplore_Tile15.text,To the rear of the Sheriff's office is a door. The sign reads "Storage and Holding Cells".
+TokenHoldingCellPeopleSearch_Tile21.button1,{action} Ask Dr Chan about Ambersby
+EventHoldingCellSpeakToScientist_Tile21.text,I'll be completely honest with you, I am sick of the guilt." she says choking back tears.\n\n "I was a scientist for The Centaur Company. My area of expertise is in human anatomy, but I was mainly tasked with non intrusive medicines like sedatives, laxatives and cough mixtures. At least until this assignment... A few weeks ago-" she pauses.\n\n"... Oh has it been that long. A few weeks ago I became worried when Dr Little asked me and my team to begin testing an experimental drug. The tests began on animals and were incredible.. giving them heightened senses and physical capabilities. I can only assume this was a military contact she was working on. Well thats what I assumed given the amount of secrecy surrounding the assignment." she looks at you and frowns.\n\n"Then she insisted on human trials... I tried to protested. We had not observed the effects on the animal test subjects for very long... It should have been weeks... Months. However I could not abate her ambition. I left that day, telling my colleagues that I felt like I was coming down with an illness, Dr Little did not even notice that I had left, she was too absorbed with her experiments." she sighs.\n\n"I wish I had have done something there and then... I did not know it would go this far or that the drug would have such bad... side effects. I reported what I knew to Sheriff Robin's and I have been hiding here ever since.... I am... So, sorry." she begins to weep.\n\nYou try to calm down Dr Chan and ask her to continue.\n\n"Oh the lab, you will want to know the location if you are to stop..." she hesitates. "The lab is just off of East Street, there is a blue poster on the wall opposite to a small appartment. Behind it is a loose brick, remove it and you will find the switch to access the lab."\n
+EventHoldingCellSpeakToScientist_Tile21.button1,{qst:CONTINUE}
+EventPlaceHoldingCellBoxes_Tile21.text,In a corner of the storage area are several boxes.\n\nPlace a Search token as indicated
+EventPlaceHoldingCellBoxes_Tile21.button1,{qst:CONTINUE}
+EventPlaceHoldingCellMetalCabinet_Tile21.text,Against one wall is a metal cabinet.\n\nPlace a Search token as indicated
+EventPlaceHoldingCellMetalCabinet_Tile21.button1,{qst:CONTINUE}
+TokenHoldingCellMetalCabinet_Tile21.text,The top of the metal cabinet is littered with tools and the main door is slightly ajar.
+EventHoldingCellMoveIn_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellOpenMetalCab_Tile21.text,Opening the cabinet you notice a canister full of fuel, you pick it up and close the cabinet.\n\nTake the {c:QItemQItemFuelCan} unique item, this represents the fuel canister.\n\nRemove the Search token
+EventHoldingCellOpenMetalCab_Tile21.button1,{qst:CONTINUE}
+EventPlaceBoatEscapeInteract_Tile1.text,You have the fuel you need to refill the ship.\n \nIf you wish to, you can escape leaving the Island town of Ambersby to its fate. \n\nPlace an Interact token as indicated
+EventPlaceBoatEscapeInteract_Tile1.button1,{qst:CONTINUE}
+TokenBoatEscape_Tile1.text,Investigators in this space with the {c:QItemQItemFuelCan} unique item can refuel the boat and flee, leaving Ambersby to its fate.
+TokenBoatEscape_Tile1.button1,{action} Refuel the boat
+EventExplainBoatInteractMoveCam_Tile21.text,Investigators on the {c:TileBoat_Tile1} tile can interact with the token to escape
+EventExplainBoatInteractMoveCam_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellSpeakToScientist2_Tile21.text,You ask Dr Chan if she knows anything else about Dr Little or the Lab.\n\nShe begins to speak about the homeless man that you have encounter and the house that they had given him, you interrupt her to tell her that you've met the man.\n\nI can't believe how much you must have endured... I don't have much, but please, take this. I hope it can aid you on your quest." she wipes the tears from her eyes and pulls something from the pocket of her lab coat before handing it to you.\n\nGain the {c:QItemBandages} common item
+EventHoldingCellSpeakToScientist2_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellSpeakToScientist3_Tile21.text,You can't help but think that there is something else Dr Chan either; does not want to tell you or is too afraid to speak about. Test {influence} (2)
+EventHoldingCellSpeakToScientist3_Tile21.button1,{qst:PASSED}
+EventHoldingCellSpeakToScientist2a_Tile21.text,You ask Dr Chan if she knows anything else about Dr Little or the Lab.\n\n"I, err... Oh yes. There was one thing, before I left I saw a homeless man, an early human trial." she gulps and continues. \n\n"I overheard him asking about his payment as I left, paid board in an apparetment in exchange for his 'services'.... Poor man" she looks at the floor and shuffles uncomfortably.\n\n"The apparetment I mentioned earlier... it is owned by the Centaur Company. It's just off of East Street, maybe you can find some clues about him there." she stops, but you can't help but feel there is more that she is failing to tell you.\n\nGain one {clue} token
+EventHoldingCellSpeakToScientist2a_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellSpeakToScientist3_Tile21.button2,{qst:FAILED}
+EventHoldingCellPersuadeScientistSuccess_Tile21.text,Ok, i'll tell you. Look i'm only thinking of your safety. There is a warehouse that was set up as a temporary infirmary. I worked there for a few days, after the first reports of the ill came in. But we had to abandon it... because of... the creatures." she looks tense.\n\n"The door is locked, there is an override code 9326... I had hoped it would keep anything in there contained. It could be used as a shortcut to the Lab, there is a hidden door at the back.... but... It's not safe. Please don't go in there." she pleads.\n\nI think this is all the information you will get from Dr Chan\n\nRemove the Person toke
+EventHoldingCellPersuadeScientistSuccess_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellPersuadeScientistFailed_Tile21.text,I... No... I know nothing more. Please be safe out there." she says before leaving to rejoin the group.\n\nRemove the Person toke
+EventHoldingCellPersuadeScientistFailed_Tile21.button1,{qst:CONTINUE}
+EventPlaceLabExploreScientistDialog_Tile11.button1,{qst:CONTINUE}
+EventPlaceSecretLabExploreIfKnown_Tile11.button1,{qst:CONTINUE}
+TokenSecretLabExplore_Tile11.text,In the dim light you can just about make out a blue poster on the Alley wall, this must be what Dr Chan was talking about.
+TokenSecretLabExplore_Tile11.button1,{qst:ACTION_INVESTIGATE}
+EventPlaceLabExploreScientistDialog_Tile11.text,Dr Chan has given you instructions on how to find the Secret Lab's entrance.\n\nRemove the Wall on the {c:TileEastAlley2_Tile11} tile and replace it with a Secret Door.\n\nPlace an Explore token as indicated.
+EventPlaceSecretLabExploreIfKnown_Tile11.text,Dr Chan has given you instructions on how to find the Secret Lab's entrance.\n\nRemove the Wall on the {c:TileEastAlley2_Tile11} tile and replace it a Secret Door as indicated.\n\nPlace an Explore token as indicated.\n\nThis is the Centour Company's Secret Laboratory
+EventHoldingCellPersuadeScientistSuccessWHopen_Tile21.text,Dr Chan begins to tell you of the warehouse next door that was used as an Infirmary for a while before they had to abandon it.\n\nYou tell her that you have already been there.\n\nShe looks suprised for a moment and replies "Oh, you have? Did you find the hidden door at the back? It might speed your journey to the Laboratory".\n\nGain one {clue} token.
+EventHoldingCellPersuadeScientistSuccessWHopen_Tile21.button1,{qst:CONTINUE}
+EventPlaceAbanHouse_PlaceTile12.text,The home is little more than a bed sit. There is a sickening odor in the air, the smell of mold mixed with rubbish. \n\nLooking around the room, you start to understand why. Rubbish litters the floor, so much so that you can barely see a clear area to stand.\n\nPlace the {c:TileSmallHome_Tile12} tile.\n\nRemove the Explore token
+EventPlaceAbanHouse_PlaceTile12.button1,{qst:CONTINUE}
+EventAbanHouseMoveIn_Tile12.text,You may move one space into the explored area
+EventAbanHouseMoveIn_Tile12.button1,{qst:CONTINUE}
+EventPlaceAbanHouseHomelessMan_Tile12.text,Sitting on the bed is a scruffy man, he doesn't look very well.\n\nPlace a Person token as indicated
+EventPlaceAbanHouseHomelessMan_Tile12.button1,{qst:CONTINUE}
+EventPlaceAbanHouseSearch_Tile12.text,The door to the back room is open, the room is similarly piled high with rubbish.\n\nPlace a Search token as indicated
+EventPlaceAbanHouseSearch_Tile12.button1,{qst:CONTINUE}
+TokenAbandonedHouseExplore_Tile12.text,A home is at the end of the alley, the door is slightly ajar.
+EventAbanHouseMoveIn.button1,{qst:CONTINUE}
+TokenAbanHousePerson_Tile12.text,The man coughs and splutters, he does not look well at all.
+EventAbanHouseMoveIn.text,You may move one space into the explored area
+TokenAbanHousePerson_Tile12.button1,{action} Speak to the man
+EventAbanHomeManTalk_Tile12.text,You ask the man if he is ok. The man coughs violently and wipes blood away from his mouth. "I wish I could say that I am... and that this would pass... But... I don't kno-" the man coughs violently interrupting his own sentence.\nCurious of the mans plight you ask him what he thinks caused his illness..\n\n"I saw a poster about this trial that was being run, I went to the place and signed up. They took me to this lab, blindfolded me, sayin' it was critical that the location was kept secret. Then they stuck me with a needle and sent me to this place. They'd come every so often ta take me back for checkups... Come to think of it, I was due a checkup, a few days back. I know, I know... it all sounds shady, but I was desperate, needed a roof over me 'ead and they were lettin' me live 'ere... for free" he coughs and takes a moment to rest.\n\nGain one {clue} token
+EventAbanHomeManTalk_Tile12.button1,{qst:CONTINUE}
+EventAbanHomeManTalk2_Tile12.text,You press the man for more information. "I did over hear them talking about some neutralization agent that would reverse the affects of whatever it is they were testin', I was well in'ta treatment at the time and feelin'.... really good. I didn't think much of it. I wish I 'ad, i'm not feelin' so good now.." he hacks out a cough.\n\n"I saw this machine they put coloured glass containers in it, hmm or were the containers filled with coloured liquid... I didn't get a good look at it, they had me looking at the ceilin' most of the time. This assistant though, didn't have a good memory and kept writin' stuff down. Well I was curious about what was goin' inta each so I grabbed this note. Not that it was of any 'elp ta me."\n\nHe hands you a slip of paper, which you place between two pages in your Journal to review later.\n\nAny Investigator can review evidence collected by interacting with the Old Journal in the Items menu.\n\nGain one {clue}.
+EventAbanHomeManTalk2_Tile12.button1,{qst:CONTINUE}
+SpawnAbanHouseZombie_Tile12.button1,{qst:CONTINUE}
+SpawnBigNastyTooSlow_Tile14.button1,{qst:CONTINUE}
+EventPlaceLabEquipment_Tile14.button1,{qst:CONTINUE}
+TokenSecretLabEquipmentUse_Tile14.button2,{qst:ACTION_ENTER_GREEN}
+TokenSecretLabEquipmentUse_Tile14.button3,{qst:ACTION_ENTER_RED}
+EventPlaceLabRearDoor_Tile15.text,To the rear of the Laboratory is a room, either side of the door are two large glass viewing windows.\n\nPlace a Search token as indicated
+EventPlaceLabRearDoor_Tile15.button1,{qst:CONTINUE}
+SpawnLabZombie2_Tile14.button1,{qst:CONTINUE}
+SpawnLabZombie2_Tile14.text,Another creature is leaning over slurping from what appears to be a bathtub filled with blood and body parts.\n\nSpawn a Zombie as indicated
+SpawnLabZombie3_Tile14.text,Another creature is crouched in the corner, its turns in your direction and snarls.\n\nSpawn a Zombie as indicated
+SpawnLabZombie3_Tile14.button1,{qst:CONTINUE}
+EventLabMoveIn_Tile15.text,You may move one space into the explored area
+SpawnAbanHouseZombie_Tile12.text,The man coughs and splutters, then screams a horrible garbling scream, blood pouring from his mouth. \n\nHe falls back onto the bed and begins writhing violently clawing at his own face. Unable to move you stare in horror as he stops moving. Several moments he sits bolt upright his now dead eyes fixed on you.  The man does not seem to regonise you as anything other than a meal now.  Suffer 2 face down horror ({will} negates).\n\nRemove the Person token and Spawn a Zombie in the space indicated
+EventLabMoveIn_Tile15.button1,{qst:CONTINUE}
+EventLabApparatusCompleteEASY_Tile15_NOTUSED.button1,{qst:CONTINUE}
+PuzzleLabOperateApparatusEASY_Tile15.button1,{qst:COMPLETE}
+PuzzleLabOperateApparatusHARD_Tile15.button1,{qst:COMPLETE}
+EventHoldingCellSpeakToScientist2b_Tile21_NOTUSED.button1,{qst:CONTINUE}
+TokenLabBigNastyRoom_Tile14.text,You approach a door to the rear of the Laboratory, it appears to lead to a small testing room with large glass viewing windows. Next to the door is a strange looking mechanism, with what looks like a vial slot.
+EventLabNastyCureOrBurnOption_Tile15.button1,{action} Administer the solution
+EventLabNastyCureOption_Tile15.text, Now you have the serum its clear to you that you can place it into the mecahnism at the side the Test Room door.\n\n<i>Investigators with the Strange Mixture (Forensic Evidence) can attempt to administer it using the mechanism at the side of the door.</i>\n
+EventLabNastyBurnOption_Tile15.button1,{action} Attempt to set fire to the Testing Room
+EventLabNastyCureOrBurnOption_Tile15.text, Now you have the serum its clear to you that you can place it into the mecahnism at the side the Test Room door. However since you have a canister of fuel you consider simply setting the whole place alight.\n\nAny Investigator may interact with this room in one of two ways.\n\n<i>Attempt the administer the Strange Mixture (Forensic Evidence), using the mechanism at the side of the door.\n\n Attempt to set fire to the Testing Room using the Fuel Canister (Missing Link).</i>
+EventLabNastyBurnOption_Tile15.text,You look at the room and consider just setting the whole place on fire. Look over your shoulder at the apparatus, with all the coloured vials above, you wonder what it could be used for.\n \n<i>Investigators with the Fuel Canister (Missing Link) unique item can attempt to set fire to the Testing Room.</i>
+EventLabNastyCureOption_Tile15.button1,{action} Attempt to administer the solution
+EventLabNastyInvestigate_Tile15.text,Through the viewing window you see a massive mass of bubbling flesh. The mass appears to have formed several limbs and is clawing itself in a slow circle. You stare in morbid curiosity as bodies are absorbed by the mass of expanding flesh. Bones crunch and grind as they are devoured. You retch at the sight, suffer one face down horror.\n\nThe sight of this horror steels your resolve to find a way to stop it, become Focused.
+EventLabNastyInvestigate_Tile15.button1,{qst:CONTINUE}
+EventNastyIvestigateAgain_Tile15.button1,{qst:CONTINUE}
+EventLabNastyCureOrBurnOption_Tile15.button2,{action} Set fire to the Testing Room
+EventNastyIvestigateAgain_Tile15.text,The monster is still writhing and its flesh bubbling.\nThere is nothing new here.
+\nThe strange liquid drains from the vial down several clear tubes, you jump as a furnace kicks in and you are watch mesmerised as the liquid is vaporised into a fine mist. The mist is pumped into the room through several vents, in a myriad of colours . This must be a fail safe, but you question why it was left behind for someone to use.
+\nA dozen voices cries out as one., as the mist touches the mass. The flesh pops and crackles, losing its fluidity.
+\nSeveral horrifying moments pass until the mist settles and you can see the remains of the mass. A dozen human forms are merged together, twitching. One eye focus; on you and lingers on you for a moment, you almost feel that there is gratitude in those eyes... Seconds pass and the eye slowly rolls back into its socket, and the mass stops twitching.
+\nYou may have not been able to save these people from their fate, but you were able to save the town of Ambersby.
+\nAs you leave you pick up a pack of papers marked "Confidential". You spend the next several days curing the various infected towns folk, with the mysterious liquid.
+\nIn the comfort a guest house one evening you sit down to look over the papers. They contain several details of the experiments. However your attention is drawn to another project contained... "Project Clarity"... The papers detail plans of a project that Dr Kelly is working on in an old Abandoned Sanitarium, everything you need to get started is contained in this file....
+\nCongratulations, you cured the mysterious virus of Ambersby.
+PuzzleBurnLab_Tile15.button1,{qst:COMPLETE}
+PuzzleAdministerCure_Tile15.button1,{qst:COMPLETE}
+\nYou back-peddle trying not to spell the fuel on yourself, as you pass a desk you notice a pack of papers marked "Confidential" and pick them up.
+\nYou flick the match and turn to run, the flames engulf the lab in an instant and behind you, you hear the agonising wails of a dozen voices... You hope this is the screams of the creature, you can only assume it is.
+\nThat night you stand on the Dock watching in horror as the raging fire spreads from building to building, your stomach twisted in knots with guilt. You have done the right thing... haven't you? Surely the remainder of the town would have been decimated if that thing was able to come form? 
+\nThe fire begins to die down by dawn, enough for the townsfolk to put out the remaining fires. 
+\nSeveral days later from the comfort a guest house, on the outskirts of town, you sit down to look over the confidential papers. They contain several details of the experiments. However your attention is drawn to another project contained... "Project Clarity"... The papers detail plans of a project that Dr Kelly is working on in an old Abandoned Sanitarium, everything you need to get started is in this file....
+TokenSHORTCUTREMOVEONCEDONE.text,{rnd:5} Shortcut 
+UIInvestigatorCompleteBurnText.uitext,You knew the moment that you used the fuel to set the fire, that you would not be able to escape the town on the boat. However it was worth the risk, you could not leave the Town of Ambersby to be decimated by the Monstrosity, not after all you had witnessed.\n\nYou stand over the sizzling husk of the Terror of Ambersby, the beast you have just slain. The smell of charred flesh is bitter sweet as the adrenaline surging through you begins to subside. You grimace as you examine the remains and find that they are human in origin, probably former residents of Ambersby.\n\nYour moment of contemplation is quickly broken by the crackling of fire and your attention is drawn to the raging inferno in the Laboratory's Testing Room. It is obvious to you that you are not equipped to quell this fire and so you take the opportunity to flee. As you pass a desk you notice a pack of papers marked "Confidential" and quickly snatch them up as you exit. \n\nThat night you stand on the Dock watching in horror as the raging fire spreads from building to building, your stomach twisted in knots by guilt. You have done the right thing; haven't you? Surely the remainder of the town would have been decimated if that thing was able to escape the Laboratory? The fire begins to die down by dawn, enough for the townsfolk to put out the remaining fires. \n\nSeveral days later from the comfort a guest house, on the outskirts of town, you sit down to look over the confidential papers. They contain several details of the experiments. However your attention is drawn to another project contained; "Project Clarity". The papers detail plans of a project that Dr Little is working on in her Sanitarium, everything you need to get started is in this file. \n\nCongratulations, you have destroyed the Terror of Ambersby and the mysterious virus with it, with only a <i>bit</i> of collateral damage.\n\nThe Investigation is complete.\n(There are three alternate endings to this Scenario)
+Congratulations, you destroyed the beast of Ambersby and the mysterious virus with it, with only a bit of collateral damage.
+\n\nYou flick the match and turn to run, the flames engulf the lab in an instant and behind you, you hear the agonising wails of a dozen voices... You hope this is the screams of the creature, you can only assume it is.
+\n\nThat night you stand on the Dock watching in horror as the raging fire spreads from building to building, your stomach twisted in knots with guilt. You have done the right thing... haven't you? Surely the remainder of the town would have been decimated if that thing was able to come form? \n\nThe fire begins to die down by dawn, enough for the townsfolk to put out the remaining fires. 
+\n\nSeveral days later from the comfort a guest house, on the outskirts of town, you sit down to look over the confidential papers. They contain several details of the experiments. However your attention is drawn to another project contained... "Project Clarity"... The papers detail plans of a project that Dr Kelly is working on in an old Abandoned Sanitarium, everything you need to get started is in this file.\n\nCongratulations, you destroyed the beast of Ambersby and the mysterious virus virus with it, with only a bit of collateral damage.\n\nThe Investigation is complete.
+\n\nYou back-peddle trying not to spell the fuel on yourself, as you pass a desk you notice a pack of papers marked "Confidential" and pick them up.\n
+UIInvestigationCompleteCureText.uitext,Several horrifying moments pass until the mist settles and you can see the remains of the mass. A dozen human forms are partially merged together, twitching. As you look at the corpse a pair of eyes seem to focus on you... Just for a moment you think you see a sad gratitude in its fading gaze... Seconds pass and the eyes slowly roll back in their sockets. The mass stops twitching  and falls still as the grave.\n\nYou may have not been able to save these people from their fate, but you were able to save the town of Ambersby.\n\nAs you leave you pick up a file of papers marked "Confidential". You spend the next several days collecting the various vials, mixing the solution and using it to cure people at various stages of infection. Its hard going, especially subduing some of the townsfolk that had undergone "the change". But ultimately rewarding to thwart this evil.\n\nIn the comfort a guest house one evening you sit down to look over the papers. They contain several details of the experiments. However your attention is drawn to another folder containing documents on "Project Clarity". The papers detail plans of a project that Dr Little is working on in her Sanitarium, everything you need to get started is contained in this file...\n\nCongratulations, you cured the mysterious plague of Ambersby.\n(Well done, this is the most favourable ending for Ambersby. There are three alternative endings.)
+UIInvestigationCompleteMonsterKilledText.uitext,A dozen voices let out a horrifying howl as you strike a mortal blow to the creature. It falls to what you assume are its knees, then slumps sideways to the ground. The creature begins to ooze a strange liquid as parts of it begin to separate from its body. The bodies that formed the creature are slowly shedding from it in a deformed mass of limbs and organs...\n\nYou gag at the sight and turn away, it takes several days to clean up the mess and burn the bodies from the town. During your investigations several days later you come across a file of documents marked "Confidential".\n\nYou flick through the documents and realise that they contain several details of the experiments. However your attention is drawn to another project contained... "Project Clarity"... The papers detail plans of a project that Dr Little is working on in her Sanitarium, everything you need to get started is in this file...\n\nCongratulations, after a grueling fight you have defeated the Monster of Ambersby.\n\nThe Investigation is Complete.\n(There are three alternate endings to this Scenario)
+EventBigNastyHorror.button1,Investigators in range
+EventEastAlleyInvestigateLabExplore_Tile11.text,You pull away the poster, remove the loose brick and flick the switch. Part of the wall begins to swing open.\n\nPlace the {c:TileSecretLab_Tile14} tile and wall as indicated.\n\nRemove the Explore token
+CustomMonsterBigNasty_Tile21.info,-
+CustomMonsterBigNasty_Tile21.monstername,Terror of Ambersby
+EventBigNastyPlacePlaza_Tile6.text,A terrifying howl echoes across the plaza.\n\nPlace the {c:TilePlaza_Tile6} and {c:TileShopFront_Tile7} tile as indicated.\n\nRemove the Sight token
+EventSheriffNoTarget.text,The Sheriff maintains his overwatch, waiting for a target to present itself.
+EventBigNastyMoveMeleeTarLore.button2,No Investigators in range
+EventBigNastyMoveMeleeTarLore.text,The Terror of Ambersby moves 2 space towards the nearest Investigator and attack the Investigator in its space with the highest {lore}.
+EventBigNastyMoveRangeTarAll.button2,No Investigators in Range
+EventBigNastyMeleeAttack1.button1,{qst:CONTINUE}
+EventBigNastyMoves1Space.text,The Terror of Ambersby pushes onward, move it one space towards the nearest investigator.
+EventBigNastyMoveRangeTarAll.text,The monster moves 2 spaces to be in range of as many Investigators as possible.
+EventBigNastyMoveMeleeTarObserv.button1,{qst:MONSTER_ATTACKS}
+EventBigNastyMoveRangeTarWill.text,The Terror of Ambersby moves up to 2 spaces to be in range of the nearest investigator and attacks the investigator in range with the lowest {will}.
+EventBigNastyRangeAttackAll.button1,{qst:CONTINUE}
+EventBigNastyRangeAttack1.text,The creature lashes out wildly with a long spiked limb, thrashing it back and forth. It is impossible to dodge every attack however you attempt to interpret each one as it come your way. Suffer 2 face down damage and 1 face down horror {observation} negates as you realise that the limbs thrashing you have mouths that bite.
+EventEvadeBigNasty.text,You attempt to evade the Terror of Ambersby
+EventEvadeBigNasty.button1,{qst:CONTINUE}
+SpawnBigNastyBurnt_Tile14.button1,{qst:CONTINUE}
+EventHorrorBigNasty1.button1,{qst:CONTINUE}
+EventBigNastyMoveMeleeTarLore.button1,{qst:MONSTER_ATTACKS}
+EventBigNastyMoveRangeTarAll.button1,{qst:MONSTER_ATTACKS}
+EventScientistDiagWarehouseEntered_Tile21.button1,{qst:CONTINUE}
+TokenEastAlleySearch_Tile9.button1,{qst:ACTION_INVESTIGATE}
+EventEastAlleySearchInvestigate_Tile9.button1,{qst:PASSED}
+EventEastAlleySearchInvestigate_Tile9.button2,{qst:FAILED}
+EventEastAlleySearchSucces_Tile9.text,Avoiding the creatures lunge you you dance backwards as it snaps and snarls. On its arm you notice what appears to be a medial wrist band.\n\nYou give the trapped creature a wide berth as you pass.\nGain one {clue} token.\n\nRemove the Search token
+EventEastAlleySearchSucces_Tile9.button1,{qst:CONTINUE}
+EventBigNastyMeleeAttack2.text,The creature barrels towards you with suprising speed. You attempt to dodge. Test {agility} (2) if you succeed you managed to roll out of the way just in time. If you fail suffer 2 face down damage and become Stunned, as the Terror smashes you to one side.
+EventBigNastyMoveRangeTarWill.button1,{qst:MONSTER_ATTACKS}
+EventBigNastyMoveMeleeTarObserv.text,The Terror of Ambersby moves 2 space towards the nearest Investigator and attack the Investigator in its space with the highest {observation}.
+EventBigNastyMeleeAttack2.button1,{qst:CONTINUE}
+EventBigNastyRangeAttackAll.text,The monster tilts its head back and roars, the un-natural scream drives terror into your heart.\n\nEach investigator in range suggers 3 face down horror, {will}+1 negates.
+EventBigNastyRangeAttack1.button1,{qst:CONTINUE}
+EventBigNastyMeleeAttack3.text,The creatures flails wildly at you with a malformed limb, you notice the limbs joint appears to be weak and seek to exploit the weakness. \n\nTest {lore} (3) if you succeed you side step the limb as it comes crashing down and stamp hard on the source of the the weakness, deal 2 damage to the Terror of Ambersby, as screams from multiple mouths, the limb detatching from its bulkly torso. If you fail the limb slams down on you hard, suffer 2 face down damage.
+EventBigNastyRangeAttack2.button1,{qst:CONTINUE}
+EventBigNastyMoveRangeTargetAgi.text,The Terror of Ambersby moves up to 2 spaces to be in range of the nearest investigator and attacks the investigator in range with the lowest {will}.
+EventBigNastyMoveRangeTargetAgi.button1,{qst:MONSTER_ATTACKS}
+EventEvadeBigNasty1.text,You attempt to break free of the creature and it lashes out a limb. \n\nSuffer 2 damage {agility} negates, if you suffer one or more damage end you movement action.
+EventEvadeBigNasty1.button1,{qst:CONTINUE}
+EventEvadeBigNasty2.text,As you attempt to break free, the creature lets out a scream of a dozen anguished souls. Test {will} (2) if you succeed you steel your resolve and retreat. If you fail suffer one face down horror and become Restrained, as you are frozen in terror. End your movement activation.
+EventEvadeBigNasty2.button1,{qst:CONTINUE}
+EventEvadeBigNasty3.text,As you attempt to break free a limb grasps at your arm. You attempt to tear yourself free.\n\nTest {strength} (2), if you succeed you manage to rip yourself free of its grasp, if you fail suffer one face down damage as the creature's grip tightens, end your movement.
+EventEvadeBigNasty3.button1,{qst:CONTINUE}
+EventEvadeBigNasty4.button1,{qst:CONTINUE}
+EventLabPlaceFire_Tile12.text,An inferno rages in the Test Room, one that you dare not approach.\n\nPlace Fire as indicated\n\n<i>Investigators may not enter this space or remove these Fire token by any means</i>
+EventBigNastyHorror.button2,No Investigators in range
+EventHorrorBigNasty1.text,The Terror of Ambersby wails in anguish and rage, you can hear the voices of several different people among the cries.\n\nSuffer 2 face down horror ({will} negates), as you try to come to terms with the situation.
+EventHorrorBigNasty2.text,The creatures flesh splits, it weeps blood and ooze. You resist the urge to wretch. \n\nTest {will} if you succeed you manage to hold back the urge to vomit. If you fail you bring up the contents of your stomach, suffer one face down horror and become stunned.
+EventHorrorBigNasty2.button1,{qst:CONTINUE}
+EventBigNastyRangeAttackAll2.text,The creature spits fountains of blood from several maws on its body spraying blood towards all Investigators within range.\n\nTest {agility} (2) if you succeed you manage to avoid the blood. If you fail suffer two face down damage and one face down horror as your realise in horror that the sickly scarlet liquid is burning your skin.
+EventHorrorBigNasty3.button1,{qst:CONTINUE}
+EventHoldingCellSpeakToScientist2b_Tile21_NOTUSED.text,You show Dr Chan the warehouse inventory list you recovered earlier and enquire about the numbered vials.\n\nShe looks at the inventory, her brow creasing as she seems to try to remember something.\n\n"Ahh yes.. the cure, B7221, that's it. There is a machine in the lab, contained should be the B7221 serum, I believe this is some form of a counter agent to Dr Kelly's experiment... at least that would explain why it's protected by such a confusing contraption."\n\nGain 2 {clue} tokens
+EventBookStoreSpeakFriendlyKeeperEND_Tile13.text,You ask the shopkeeper what is happening.\n\n"Oh I don't know... all I know a week or so ago these creatures started showing up. We were told to lock our doors at night. The other night I heard a vicious banging on my door, I was closed ya see. Looking out the window... well I don't know how to describe it. This thing was pounding on my door... I turned off the lights, locked the door, barricaded myself in. I've been here ever since." the old man shudders.\n\nThe man shuffles to a chair and sits down, he has nothing else to tell you.\n\nGain one {clue} token\n\nRemove the Person token
+EventBookStoreSpeakFriendlyKeeperEND_Tile13.button1,{qst:CONTINUE}
+EventBookStoreSpeakFriendlyKeeper2_Tile13.text,You ask the shopkeeper if he has anything that might help you in combating these creatures. Test {influence} (2)
+EventBookStoreSpeakFriendlyKeeper2_Tile13.button1,{qst:PASSED}
+EventBookStoreSpeakFriendlyKeeper1_Tile13.text,I have never understood this thing, but if you can open it. The contents are yours" he says handing you a puzzle box.\n\nGain the {c:QItemPuzzleBox} unique item.\n\nInvestigators may interact with this item from within the app
+EventBookStoreSpeakFriendlyKeeper1_Tile13.button1,{qst:CONTINUE}
+EventBookStoreSpeakFriendlyKeeper2_Tile13.button2,{qst:FAILED}
+EventBookStoreInfluanceShopKeepSuccess_Tile13.text,You remind him of the troubling situation that him and everyone else in Ambersby are facing.\n\nThe seems convinced and responds:\n"Ok. Ok. I see your point, here take this, I found it in one of my tomes."\n\nGain the {c:QItemSpellBook} spell
+EventBookStoreInfluanceShopKeepSuccess_Tile13.button1,{qst:CONTINUE}
+EventBookStoreInflShopKeepFail_Tile13.button1,{qst:CONTINUE}
+EventPuzzleBox.text,The puzzle box is a small wooden cube with what look to be mystical symbols on them. One side is a jumble of small tiles that appear to slide on touch.
+EventBookStoreInflShopKeepFail_Tile13.text,You remind him of the troubling situation that him and everyone else in Ambersby are facing. However he does not seems convinced enough to aid you.
+EventPuzzleBox.button1,{action} Attempt puzzle using {lore}
+EventPuzzleBoxComplete.text,You slide the last tile into place and the box clicks open with a flash of light. You mind is instantly bombarded with new knowledge.\n\nGain the {c:QItemDamagingSpell} spell and discard the Puzzle Box
+PuzzleOpenPuzzleBox.button1,{qst:COMPLETE}
+EventPuzzleBoxComplete.button1,{qst:CONTINUE}
+EventBookStoreSearchInvestigate_Tile13.button1,{qst:PASSED}
+EventBookStoreSearchInvestigate_Tile13.text,You flick through a tome, becoming engrossed.\nYou realise after a while that are unable to tear your eyes away, the ancient dark secrets taking a hold of you.\n\nYou attempt to regain your senses, Test {will} (2). 
+TokenScaredShopKeep_Tile13.button2,{action} Try to apologise
+EventBookStoreIntimidateShopKeep_Tile13.text,You growl at the shopkeeper in a low intimidating voice.\nTest {strength}+1 (3).
+EventBookStoreIntimidateShopKeep_Tile13.button1,{qst:PASSED}
+EventBookStoreIntimidateShopKeep_Tile13.button2,{qst:FAILED}
+EventBookStoreIntimidateSucess_Tile13.text,The book keeper yelps and hands a small scroll to you before retreating to his corner. You feel a pang of guilt, suffer 1 horror ({will}-1 negates).\n\nGain the {c:QItemSpellBook} common item\n\nRemove the Person token
+EventBookStoreIntimidateSucess_Tile13.button1,{qst:CONTINUE}
+EventBookStoreIntimidateShopKeepFail_Tile13.text,The shopkeeper just whimpers from his corner, you will not get anything further from this poor man.\n\nRemove the Person token
+EventBookStoreIntimidateShopKeepFail_Tile13.button1,{qst:CONTINUE}
+EventBookStorePersuadeScaredShopKeep_Tile13.button1,{qst:PASSED}
+EventBookStorePersuadeScaredShopKeep_Tile13.button2,{qst:FAILED}
+EventBookShorePersuadeScaredShopKeep_Tile13.text,You apologise profusely for your intrusion and explain about what you have seen on the streets.\n\nHe seems a little sympathetic but more eager for you to leave him be.\n\nHe hands you a small scroll and begs for you to leave.\n\nGain the {c:QItemSpellBook} spell.\n\nRemove this Person token
+EventBookStorePersuadeScaredShopKeep_Tile13.text,You apologise for the brashness of your entry. Test {influence} (2).
+EventBookShorePersuadeScaredShopKeep_Tile13.button1,{qst:CONTINUE}
+EventWarehouseMoveIn_Tile20.text,You may move one space into the explored area
+EventWarehouseMoveIn_Tile20.button1,{qst:CONTINUE}
+EventRentalShopRemoveBellSearch_Tile2.text,You realise it might not be a good idea to make too much noise.\n\nRemove the Search Token as indicated
+EventRentalShopRemoveBellSearch_Tile2.button1,{qst:CONTINUE}
+SpawnBeachHutMonster_Tile3.text,The hut contains several trunks, as you approach you hear a strange noise. Behind a crate, a scaly creature is feasting on the remains of a small animal.\n\nSpawn a Deep One\n\nRemove the Search token
+TokenPlazaCorpse_Tile6.text,A corpse lays in a pool of his own blood next to the water fountain. The smell of the corpses fresh blood may attract unwanted attention.\n\nInvestigators with a Light Source can interact with this token
+EventBigNastyPlacePlaza_Tile6.button1,{qst:CONTINUE}
+TokenAbanHouseSearch_Tile12.text,The door to the back room is open, the room is piled high with rubbish.
+EventAbanHouseSearchInvestigate_Tile12.text,You pinch your nose and rummage through the piles of rubbish in the hopes of finding something of use.\n\nGain the {c:QItemAbanHouseItem_Tile12} common item.\n\nRemove this Search token
+EventAbanHouseSearchInvestigate_Tile12.button1,{qst:CONTINUE}
+EventSheriffOfficeSpeakFriendlyShrfOnlyHelp_Til15.button1,{action} Ask for help
+EventSheriffOffSpeakFriendShrfOnlyWhatsUp_Tile15.text,Sheriff Robbin's looks a little irritable from the questions.
+EventSheriffOffSpeakFriendShrfOnlyWhatsUp_Tile15.button1,{action} Ask what's happening
+EventEastAlleyInvestigateLabExplore_Tile11.button1,{qst:CONTINUE}
+EventSheriffOfficeSpeakFriendShrfAllOptions_Tile15.button3,{qst:CANCEL}
+EventSheriffOfficeSpeakFriendlyShrfOnlyHelp_Til15.button2,{qst:CANCEL}
+EventSheriffOffSpeakFriendShrfOnlyWhatsUp_Tile15.button2,{qst:CANCEL}
+EventPlazaBodyItemBad_Tile6.text,You lean over the man to check his pulse.\nYou are startled as the man opens his eyes and grasps your arm.\n\nHe is trying to speak, but all he manages to do is gargle blood before passing. Suffer one face down horror ({will}-1 as you watch the man's final moments.\n\nYou notice a name stitched into the mans jacket, it reads\n"Ambersby Rentals"\n\nGain one {clue} token.\n\nRemove the Search token
+EventPlazaBodyItemBad_Tile6.button1,{qst:CONTINUE}
+EventPlazaBodyItemFocus_Tile6.text,You reach the man just too late to save him, he gasps his final breath and slumps forward. Looking at the body of the man, you notice a name stitched into his jacket. It reads\n"Ambersby Rentals"\n\nYou attention is drawn to a photograph in the mans bloody hand. Picking it up you can see an image of the man, and what you presume was his wife and child. \n\nThe image reminds you what what is as stake, gain one {clue} and become Focused.\n\nRemove the Search token
+EventPlazaBodyItemFocus_Tile6.button1,{qst:CONTINUE}
+EventPuzzleBox.button2,{qst:CANCEL}
+EventReadManifest_PlayerInv.button2,{qst:CANCEL}
+UIInvestigaterEliminatedText.uitext,You fall back to an abandoned building at the edge of town, the howls of the creatures echo through the streets. You can't hope to overcome this threat, peering out the window you see the looming silhouette of a monstrous beast, it won't be long before this beast devours the town folk in unrelenting mission of destruction.\n\nYou wait for what feels like hours until the howls seem distant enough and you can slip out. Steeling into the shadows you run as fast as you can, reaching the outskirts of the town you find a small shack with a rowing boat. Seizing the opportunity you clamber into the boat and row off into the darkness.\n\nThe memories of Ambersbury haunt your dreams for the rest of your days..\n\nYou have failed to complete the Investigation, better luck next time!
+EventPharaCrate1Search_Tile5.button1,{qst:CONTINUE}
+SpawnLabZombie0_Tile14.text,Staring right as you is a creature, blood drips from is broken distended jaw.\n\nSpawn a Zombie in the space indicated
+SpawnLabZombie0_Tile14.button1,{qst:CONTINUE}
+TokenSnackShopBoy_REvent1.button1,{qst:CONTINUE}
+CustomMonsterSnackShopZombie_REvent1.info,-
+TokenSnackShopBoy_REvent1.text,A small girl is cowering in the Snack Shop, she appears to have barricaded herself inside.
+EventSnackShopZombieActivation_REvent1.button1,{qst:CONTINUE}
+CustomMonsterSnackShopZombie_REvent1.monstername,Zombie
+EventSnackShopZombieMoves_Revent1.text,The Creature has caught the scent of the little girl. Ignoring everything other than it's current prey, it lumbers towards the snack shop. \n\nMove the Zombie two spaces towards the Person token in the Snack Shop, do <b>not</b> stop the monsters movement if it passes through an Investigators space.
+EventSnackShopZombieMoves_Revent1.button1,{qst:CONTINUE}
+EventSnackShopZombieBatterDoor_Revent1.text,The Creature has reached the Snack Shop and is pounding on the barricaded door. The girl whimpers, paralyzed by fear.\n\nYou don't have much time to save the girl.
+EventSnackShopZombieBatterDoor_Revent1.button1,{qst:CONTINUE}
+EventSnackShopZombieBreaksDoor_Revent1.text,The sound of splintering wood echoes throughout the town, it appears that the Creature has broken into the Snack Shop.\n\nMove the Zombie into the Snack Shop location and remove the Barricade token.
+EventSnackShopZombieBreaksDoor_Revent1.button1,{qst:CONTINUE}
+TokenSnackShopCorpse_Revent1.button1,{action} Set corpse on fire with your <i>Light Source</i>
+EventSnackShopZombieBoyDies_Revent1.text,An agonizing scream echoes throughout the town as the Zombie dispatches the little girl in the Snack Shop.\n\nEach Investigator suffers 1 face down horror ({will}-1 negates).\n\nRemove the Person token from the Snack Shop.
+TokenSnackShopCorpse_Revent1.text,The body of a dead girl lies on the floor of the Snack Shack, the stench of the corpse drifts through the streets of Ambersby, the smell may attract unwanted attention.\n\nInvestigators with a Light Source can interact with this token
+EventSnackShopZombieBoyDies_Revent1.button1,{qst:CONTINUE}
+EventSnackShopZombieDiesBoyAlive_Revent1.text,The Creature falls to the ground and stops moving. 
+EventSnackShopZombieDiesBoyAlive_Revent1.button1,{qst:CONTINUE}
+EventStart_REvent1.text,You hear a scream and a girl runs from the Easy Alley, she appears to be being chased. She quickly darts into the Snack Shop and barricades herself inside.\n\nPlace a Person token and Barricade as indicated
+EventStart_REvent1.button1,{qst:CONTINUE}
+SpawnSnackShopZombie_REvent1.text,A Creature lumbers through the East Alley streets, it appears to have caught the scent of its prey.\n\nPlace a Zombie as indicated
+SpawnSnackShopZombie_REvent1.button1,{qst:CONTINUE}
+SpawnCorpsesSpawnDeepOne_REvent.text,The smell of fresh blood has attracted a creature from the River, to Ambersby.\n\nYou should find a way to deal with these corpses to avoid more monsters showing up.\n\nSpawn a Deep One in the space indicated
+EventCorpsePresentSpawnMonster_REvent.button1,{qst:CONTINUE}
+SpawnCorpsesSpawnDeepOne_REvent.button1,{qst:CONTINUE}
+SpawnSpawnDeepOneBerth3_REvent.text,A creature leaps from the river onto Berth 3, it sniffs the air looking for its meal. It must have been attracted by the smell of blood in the air of Ambersby.\n\nYou should find a way to deal with these corpses to avoid more monsters showing up.\n\nSpawn a Deep One in the space indicated
+SpawnSpawnDeepOneBerth3_REvent.button1,{qst:CONTINUE}
+EventBoyDropsLantern_REvent1.text,In her haste the girl appears to have dislodged a Lantern from the Snack Shop. \n\nPlace the {c:QItemLantern} in the space indicated.
+EventBoyDropsLantern_REvent1.button1,{qst:CONTINUE}
+EventStart_REvent2.text,A strong wind blows through North Street shaking the sign above the Book's Cover and blowing out the rudimentary torches lining its walls. The surrounding area is plunged into darkness.\n\nPlace Darkness in the {c:TileNorthStreet_Tile8}, {c:TileStreetCorner_Tile17} and {c:TileBeach_Tile4} tiles.
+EventLightsOutTorch_REvent2.text,Your attention is drawn to the smoking torches mounted on the wall.\n\nPlace a Search Token as indicated
+EventPlazaManDies_REvent0.text,The winds picks up, carrying with it the smell of fresh blood from the body in the plaza. You worry that the smell might bring some unwanted attention.\n\nPlace an Interact token as indicated.
+EventLightsOutTorch_REvent2.button1,{qst:CONTINUE}
+TokenNorthStreetTorches_REvent2.text,Quite high up, along the side of the "Books Cover" shop are several torches that have been hastily attached to the walls. You note that the street lights in this street are also broken and can only assume that these temporary lights had been put up as a short term measure.\n\nSmoke trails from them, the harsh weather having put them out.\n\nAn Investigator with a Light Source may attempt to light the torches.
+TokenNorthStreetTorches_REvent2.button1,{action} Attempt to take a torch
+TokenNorthStreetTorches_REvent2.button2,{action} Attempt to Light the torches with your <i>Light Source</i>
+EventNorthStreetLightsTakeTorch_Tile8.text,The torches are quite high up, you attempt to balance on the Book Shops window sill to reach one. Test {agility} (2).
+EventNorthStreetLightsTakeTorch_Tile8.button1,{qst:PASSED}
+EventNorthStreetLightsTakeTorch_Tile8.button2,{qst:FAILED}
+EventNSLightsOutTakeTorchBalanceSuccess_Tile8.text,You manage to keep your footing as you reach out and grab the torch.\n\nGain the {c:QItemTorch} common item\n\nRemove this Search token
+EventNSLightsOutTakeTorchBalanceSuccess_Tile8.button1,{qst:CONTINUE}
+EventNSLightsOutTakeTorchFailed_Tile8.text,The tips of your fingers grip the torch, stretching a little further your foot slips and you are left dangling from the torch. \n\nBefore you have a chance to regain your purchase on the sill the torch rips from its mounting and you both go crashing to the ground. \n\nSuffer 1 facedown damage and flip one damage face up as you land hard.\n\nPlace the {c:QItemTorch} common item in the space.\n\nDiscard the Search token
+EventNSLightsOutTakeTorchFailed_Tile8.button1,{qst:CONTINUE}
+EventNSLightsLightTorches_Tile8.text,The torches are quite high up, you attempt to balance on the Book Shops window sill to reach one. Test {agility} (2).
+EventNSLightsLightTorches_Tile8.button1,{qst:PASSED}
+EventNSLightsLightTorches_Tile8.button2,{qst:FAILED}
+EventNSLightsLightTorchSuccess_Tile8.text,You manage to tiptoe gracefully along the window sill and light the torches.\n\nRemove the Darkness tokens from the {c:TileNorthStreetTile8}, {c:TileStreetCorner_Tile17} and {c:TileBeach_Tile4} tiles.\n\nThe light is comforting, all Investigators in either the {c:TileNorthStreetTile8}, {c:TileStreetCorner_Tile17} or {c:TileBeach_Tile4} tile may discard one face down horror.\n\nRemove the Search token
+EventNSLightsLightTorchSuccess_Tile8.button1,{qst:CONTINUE}
+EventNSLightsOutLightFailed_Tile8.text,You balance on unsteadily on the window sill and manage to light two of the torches. However as you shuffle to light the third you step on a bit of rotten window sill.\n\nWithout warning it gives way under your weight and you fall to the ground, dragging the lit torch with you.\n\nSuffer one face down damage and flip one damage face up, as you fall awkwardly trying to avoid the flames.\n\nDiscard the Darkness tokens in the {c:TileNorthStreet_Tile8}, {c:TileStreetCorner_Tile17} and {c:TileBeach_Tile4} tiles.\n\nPlace Fire in the Space indicated
+EventNSLightsOutLightFailed_Tile8.button1,{qst:CONTINUE}
+EventStart_REvent2.button1,{qst:CONTINUE}
+EventPlazaManDies_REvent0.button1,{qst:CONTINUE}
+TokenPlazaCorpse_Tile6.button1,{action} Set corpse on fire with your <i>Light Source</i>
+TokenHelperCorpse_Tile5.text,The corpse of the mysterious man lays dead on Berth 3.\nThe stench of the corpse drifts through the streets of Ambersby, the smell may attract unwanted attention.\n\nInvestigators with a Light Source can interact with this token
+EventSnackShopBurnBody_Revent.text,You pile scraps of wood and cardboard around the body of the boy and set it alight. You manage to contain the fire to the snack shop and prevent it from spreading.\n\nThe smell of blood is diminishes, replaced with the smell of burnt wood.\n\nRemove the Interact token
+EventSnackShopBurnBody_Revent.button1,{qst:CONTINUE}
+EventPlazaManDies2_REvent0.text,The body on the plaza convulses and slumps forward, you have failed to save him in time.\n\nThe winds carries the smell of his fresh blood through the streets of Ambersby. You worry that the smell might bring some unwanted attention.\n\nRemove the Search token and replace it with an Interact token
+EventPlazaManDies2_REvent0.button1,{qst:CONTINUE}
+EventEnableHelp_REvent3.button1,{qst:CONTINUE}
+EventEnableHelpTokenExplain_REvent3.button1,{qst:CONTINUE}
+EventEnableHelp_REvent3.text,A small boat pulls into Berth 3 and a man jumps off, he is carrying a pair of pistols. He is bleeding from several wounds, it appears he has been fighting prior to coming here.\n\nHe begins to move towards the creatures and does not seem concerned with you.\n\nPlace a Person token as Indicated, this person will help you fight the monsters.
+EventHelperAttack1_REvent3.text,The man drops to one knee and lines up a shot. His aim is true and a single shot strikes the monster.\n\nDeal 3 damage to a monster within range.\n\n<i>The Investigators may pick the target if more than one monster is in range</i>
+EventHelperActivate_REvent3.button1,Monster in range
+EventHelperActivate_REvent3.button2,No monster in range
+EventEnableHelpTokenExplain_REvent3.text,<i>You will be asked to move this person and perform actions at the end of every turn. As a result the token cannot be tracked in the app. \n\nLeave the Person token in place and move it when prompted.</i>
+EventHelperActivate_REvent3.text,The mysterious man surges forward.\n\nMove the Person (Blue) token up to two spaces to be in range with as many monsters as possible.\n\n
+EventHelperAttack1_REvent3.button1,{qst:CONTINUE}
+EventHelperAttack2_REvent3.text,The man charges forward firing wildly, at the largest group of monsters.\n\nSelect a space in range which contains at least one monster and has the most models contained (Investigators included). \n\nBullets pound into the creature, deal 3 damage to a monster in the space.\n\nStray bullets fly wide of the target and hit unintended secondary targets, deal one damage to all Investigators and Monsters in the same space
+EventHelperAttack2_REvent3.button1,{qst:CONTINUE}
+EventHelperAttack3_REvent3.text,The man drops to one knee and lines up a shot. His aim it true and a single shot strikes the monster.\n\nDeal 3 damage to a monster within range.\n\n<i>The Investigators may pick the target if more than one monster is in range</i>
+EventHelperAttack3_REvent3.button1,{qst:CONTINUE}
+EventHelperMoves_REvent3.text,The mysterious man pushes forward in pursuit of a new target.\n\nMove the Person (Blue) token one space towards the nearest monster
+EventHelperMoves_REvent3.button1,{qst:CONTINUE}
+EventHelperAttack4_REvent3.text,The mysterious man fires off a shot, which strikes the creature, his gun clicks as he tries to fire again. Cursing he pauses to reload his weapon.\n\nDeal 2 damage to a monster in range.\n\n<i>The Investigators may pick the target if more than one monster is in range</i>
+EventHelperAttack4_REvent3.button1,{qst:CONTINUE}
+EventDisableHelper_REvent3.button1,{qst:CONTINUE}
+EventHelperCorpse.text,The mysterious man appears to have perished from his wounds. The scent of fresh blood from the corpse permeates the streets of Ambersby. You worry that the smell might bring some unwanted attention.\n\nPlace an Interact token as indicated
+EventHelperCorpse.button1,{qst:CONTINUE}
+TokenHelperCorpse_Tile5.button1,{action} Set corpse on fire with your <i>Light Source</i>
+EventHelpCorpseBurn_Tile4.text,You pile broken scraps of the crates on Berth 3 around the body and set it alight. You wet the deck around the small pyre to stop any fire spreading .\n\nThe smell of blood diminishes, replaced with the smell of burnt wood. \n\nRemove the Interact token
+EventHelpCorpseBurn_Tile4.button1,{qst:CONTINUE}
+EventSnackShackZombieAttacksInvestigators_REvent1.button1,{qst:CONTINUE}
+EventSnackShopZombieInvestigatorsTarStr_REvent1.button1,{qst:MONSTER_ATTACKS}
+EventPlazaBodyBurnCorpse_Tile6.button1,{qst:CONTINUE}
+EventPlazaBodyBurnCorpse_Tile6.text,You gather scraps of debris from around the plaza and edge of the docks. You pile it around the corpse and set it alight, There is no fear of the fire spreading on the paved plaza.\n\nThe smell of blood diminishes, replaced with the smell of burnt wood.\n\nRemove the Interact token
+EventHelperDies.text,The mysterious man stumbles as he retreats towards the docks, the excursion has aggravated the wounds he'd already sustained and he looks weak from blood loss.\n\nHe falters and falls on the wooden jetty of Berth 3.\n\nRemove the Person (Blue) token
+EventHelperDies.button1,{qst:CONTINUE}
+TokenHealerEnabled_REvent5.text,The man appears to be a doctor, he is just calming down a woman that appears to have had a panic attack.\n\nHe looks at you, as you approach.
+TokenHealerEnabled_REvent5.button1,{action} Ask for help
+TokenScrapOfSpell_REvent9.button1,{qst:ACTION_INVESTIGATE}
+TokenCommonItemInCrate_REvent7.button1,{qst:INVESTIGATE}
+EventBeachItemSearch_Tile4.text,You search through the crate and find several watertight pots of pills. 
+TokenElderWardItem_REvent6.text,There is something glowing faintly beneath the surface of the fountain's waters.
+TokenElderWardItem_REvent6.button1,{qst:ACTION_INVESTIGATE}
+TokenWarehouseCrate_Tile20.button1,{qst:ACTION_INVESTIGATE}
+TokenWarehouseCrate_Tile20.text,This appears to be a crate of medical supplies with a logo  stamped on the side, the logo appears to be depicting a creature that is half man and half horse.
+EventAbanHouseAskCure_Tile12.text,You ask the man about the machine and its use.\n\n\nWhenever he had a bad reaction they'd put some vials in a machine, only remember they put the "blue one in the middle".\n
+EventAbanHouseAskCure_Tile12.button1,{qst:CONTINUE}
+TokenSecretLabEquipmentUse_Tile14.button4,{qst:ACTION_ENTER_BLUE}
+TokenSecretLabEquipmentUse_Tile14.text,The apparatus looks complicated, there are three empty slots that appears to be for liquid vials. The first is labeled "Part 1", the second "Part 2" and the final is labelled "Stabiliser".\n\n On a shelf above the machine are rows of vials, unhelpfully they are not labelled.\n\nSingling it out as a good starting point, you ponder on which vial to enter into the "Stabiliser" slot.
+EventPlaceCandles_Berth3.text,The mysterious mans belongings have spilled from his bag and litter the jetty.\n\nPlace a Search token as indicated
+EventLabApparatusIncMixBad1_Tile12.button1,{qst:CONTINUE}
+EventLabCureIncorrectMix_Tile14.button1,{qst:CONTINUE}
+EventLabCureCorrectMix_Tile14.text,You place the final two vials in the machine and hit the button.\n\nThe machine bursts into life, you watch in fascination as the three liquid mix together, the machine spins the solution and then dispenses it into a vial. The mixture is not the dull colour you would have expected from the three original liquids, instead is it a shimmering solution that seems to be a different colour each time you look at it.\n\nTake the {c:QItemLabCure_Tile15} unique item, this represents the "strange mixture".\n\nRemove the Search token
+EventLabCureCorrectMix_Tile14.button1,{qst:CONTINUE}
+EventSignPostInspect.text,You have noted down rough directions from the signpost in the Plaza.\n\n<i><b>North</b> - Sheriffs Office and Books Cover Shop\n<b>East</b> - Residences</i>
+EventReadInvestigatorJournalNothing.button1,{qst:CONTINUE}
+EventWarehouseInvestigateMedCrate_Tile20.text,You carefully remove the lid and find rows of Red vials, removing the inventory slip from inside you note the identifying number "9252".\n\nGain one {clue} token.\n\nYou take a vial and add it to your collection.\n\n<i>You and review this evidence by inspecting the Ritual Components unique item from the menu.</i>\n\nRemove the Search token
+EventReadInvestigatorJournalNothing.text,So far all you have written is the title "Ambersby".
+EventWarehouseInvestigateMedCrate_Tile20.button1,{qst:CONTINUE}
+TokenLabBoardStabilizer_Tile14.text,On the wall is a board that appears to have formulas and instructions written on it.
+EventPlaceLabCratesWithWH_Tile20.text,There are several crates marked with a logo depicting a creature, half man and half horse.\n\nPlace three Search tokens as indicated
+EventLabBoardInvestigate_Tile20.text,The board has a large logo branded in the top corner, it is of a Centaur.\n\nScribbed on the board are several formulas that you are unable to understand out of context. Underneath in bold letters is written:\n\n<b>Use stabiliser #9252 as final part with all combinations</b>\n\nGain one {clue} token.\n\nYou crudely scretch the contents of the board into your Journal.\n\nAny Investigator can review evidence collected by interacting with the Old Journal in the Items menu.\n\nRemove the Search token
+EventLabBoardInvestigate_Tile20.button1,{qst:CONTINUE}
+EventBurnPuzzleComplete_Tile12.text,Glass showers into the room as you smash the large viewing window. Avoiding the flailing creature you douse it in fuel.\n\nTaking a few steps back you strike a match and throw it into the room. \n\nThe creature squeals from a dozen mouths as its skin pops and chars. It thrashes around the room, lashing out at anything in reach. The sickly smell of cooking flesh fills the room. \n\nRemove the Search token
+SpawnBigNastyBurnt_Tile14.text,Just as you begin to think the creature has perished,  it lurches forward long limbs gaining purchase on the door frame pulling itself through. The door buckles under the pressure and the badly burned creature emerges from the test room.\n\nSpawn the Terror of Ambersby unique monster.\n\n<i>Use the Dunwich Horror model to represent this creature</i>
+EventBurnPuzzleComplete_Tile12.button1,{qst:CONTINUE}
+SpawnBigNastyTooSlow_Tile14.text,A dozen guttural voices scream out in what sounds like rage, mixed with agony. The noise cuts through you right to your core, all Investigators suffer one face down horror and flip one horror face up.\n\nSpawn the Terror of Ambersby in the {c:TileSecretLab_Tile14} tile as indicated\n\n<i>Use the Dunwich Horror model to represent the Terror of Ambersby</i>
+EventEastAlleyInvestigateHiddenSearch_Tile9.button1,{qst:CONTINUE}
+EventPlaceLabStabalizers_Tile20.button1,{qst:CONTINUE}
+EventLabWhereStabalisers_Tile14.button1,{qst:CONTINUE}
+EventPlaceLabStabalizers_Tile20.text,You seem to remember seeing some crates with this very symbol in the warehouse.\n\nPlace three Search tokens as indicated
+TokenWarehouseCrate2_Tile20.text,This appears to be a crate of medical supplies with a logo  stamped on the side, the logo appears to be depicting a creature that is half man and half horse.
+EventLabWhereStabalisers_Tile14.text,You have not seen anything with this logo on, maybe one of the nearby buildings holds a clue to which vial is the stabilizer.
+TokenWarehouseCrate2_Tile20.button1,{qst:ACTION_INVESTIGATE}
+TokenWarehouseCrate3_Tile20.text,This appears to be a crate of medical supplies with a logo  stamped on the side, the logo appears to be depicting a creature that is half man and half horse.
+TokenWarehouseCrate3_Tile20.button1,{qst:ACTION_INVESTIGATE}
+EventPlaceLabCratesWithWH_Tile20.button1,{qst:CONTINUE}
+EventLabPlaceBoard_Tile14.text,You hadn't noticed in the chaos, but there is a chalkboard on one wall\n\nPlace a Search token
+EventLabPlaceBoard_Tile14.button1,{qst:CONTINUE}
+EventLabBlueRed_Tile14.button3,{qst:CANCEL}
+UILabVials_Tile14.button1,{qst:CONTINUE}
+EventPlaceAngrySheriff_Tile15.text,The Sheriff is standing behind the counter, gun drawn and trained on you. With an angry glare he calls out to you.\n\n"Place your weapons on the ground and raise your hands... Or i'll be forced to open fire"
+EventPlaceAngrySheriff_Tile15.button1,Place your weapons on the floor
+EventPlaceAngrySheriff_Tile15.button2,Refuse to drop your weapons
+EventPlaceFriendlySheriffDropWeapons_Tile15.text,You place your weapons on the floor and raise your hands.\n\nPlace all items with the keyword <i>Weapon </i>in the space indicated.\n\nAt your show of compliance, the Sheriff carefully removes a makeshift barricade that was blocking access to the second half of the room and approaches. Walking towards the door he looks you up and down, then warily holsters his gun.\n\n"Hmm, your intentions seem fair... and we could use the help. You can pick up your weapons, but maybe think twice before kicking down doors." he says.
+EventPlaceFriendlySheriffDropWeapons_Tile15.button1,{qst:CONTINUE}
+EventLabOrangeStabalizer_Tile14.text,You enter the Orange vial into the "Stabiliser" slot.\n\nLooking at the "Part 1" slot you ponder a moment before deciding.
+EventLabOrangeStabalizer_Tile14.button1,{qst:ENTER_RED}
+EventLabOrangeStabalizer_Tile14.button2,{qst:ENTER_GREEN}
+EventLabOrangeStabalizer_Tile14.button3,{qst:ENTER_BLUE}
+EventLabOrangeStabalizer_Tile14.button4,{qst:CANCEL}
+EventLabOrangeRed_Tile14.button1,{qst:ENTER_GREEN}
+EventLabOrangeRed_Tile14.button2,{qst:ENTER_BLUE}
+EventLabOrangeRed_Tile14.text,The Orange vial is slotted into "Stabiliser" slot and the Red vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabGreenStabalizer_Tile14.text,You enter the Green vial into the "Stabiliser" slot.\n\nLooking at the "Part 1" slot you ponder a moment before deciding.
+EventLabGreenStabalizer_Tile14.button1,{qst:ENTER_RED}
+EventLabRedStabailzer_Tile14.text,You enter the Red vial into the "Stabiliser" slot.\n\nLooking at the "Part 1" slot you ponder a moment before deciding.
+EventLabRedStabailzer_Tile14.button1,{qst:ENTER_ORANGE}
+EventLabBlueStabalizer_Tile14.text,You enter the Blue vial into the "Stabiliser" slot.\n\nLooking at the "Part 1" slot you ponder a moment before deciding.
+EventLabBlueStabalizer_Tile14.button1,{qst:ENTER_RED}
+EventLabGreenStabalizer_Tile14.button2,{qst:ENTER_ORANGE}
+EventLabGreenStabalizer_Tile14.button3,{qst:ENTER_BLUE}
+EventLabGreenStabalizer_Tile14.button4,{qst:CANCEL}
+EventLabGreenRed_Tile14.text,The Green vial is slotted into "Stabiliser" slot and the Red vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabGreenRed_Tile14.button1,{qst:ENTER_BLUE}
+EventLabGreenRed_Tile14.button2,{qst:ENTER_ORANGE}
+EventLabRedStabailzer_Tile14.button2,{qst:ENTER_BLUE}
+EventLabRedStabailzer_Tile14.button3,{qst:ENTER_GREEN}
+EventLabRedStabailzer_Tile14.button4,{qst:CANCEL}
+EventLabRedOrange_Tile14.text,The Red vial is slotted into "Stabiliser" slot and the Orange vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabRedOrange_Tile14.button1,{qst:ENTER_GREEN}
+EventLabRedOrange_Tile14.button2,{qst:ENTER_BLUE}
+EventLabBlueStabalizer_Tile14.button2,{qst:ENTER_ORANGE}
+EventLabBlueStabalizer_Tile14.button3,{qst:ENTER_GREEN}
+EventLabBlueStabalizer_Tile14.button4,{qst:CANCEL}
+EventLabBlueRed_Tile14.text,The Blue vial is slotted into "Stabiliser" slot and the Red vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabBlueRed_Tile14.button1,{qst:ENTER_ORANGE}
+EventLabBlueRed_Tile14.button2,{qst:ENTER_GREEN}
+EventInvestigationCompleteCure.button1,{qst:COMPLETE}
+EventLabCurePuzzleComplete_Tile14.text,You twist the various knobs to align several small tubes, before slotting the vial into place and pulling the lever.\n\nThe strange liquid drains from the vial down several clear tubes. You jump as a furnace kicks in and the liquid is vaporised into a fine mist, which is pumped into the room. You watch mesmerized as the lights cause a myriad of colours to dance around the mist filled room. \n\nA dozen voices cry out as one, as the mist touches the mass. The flesh pops and crackles, losing its fluidity and becoming more rigid.
+EventLabCurePuzzleComplete_Tile14.button1,{qst:CONTINUE}
+EventBurntBigNastyDies.text,The creature howls in pain from a dozen mouths, the noise cuts right through you\n\nYou struggle to avoid its death throes, as it falls to the ground writhing and lashing out. Its strength gradually fades and the creature stops thrashing and becomes still.
+EventBurntBigNastyDies.button1,{qst:CONTINUE}
+EventWarehouseCrateInvestigate2_Tile20.text,You carefully remove the lid and find rows of Blue vials, removing the inventory slip from inside you note the identifying number "6544".\n\nGain one {clue} token.\n\nYou take a vial and add it to your collection.\n\n<i>You and review this evidence by inspecting the Ritual Components unique item from the menu.</i>\n\nRemove the Search token
+EventWarehouseCrateInvestigate2_Tile20.button1,{qst:CONTINUE}
+EventWarehouseCrateInvestigate_2_Tile20.button1,{qst:CONTINUE}
+EventLabOrangeRed_Tile14.button3,{qst:CANCEL}
+EventWarehouseCrateInvestigate_2_Tile20.text,You carefully remove the lid and find rows of Green vials, removing the inventory slip from inside you note the identifying number "7334".\n\nGain one {clue} token.\n\nYou take a vial and add it to your collection.\n\n<i>You and review this evidence by inspecting the Ritual Components unique item from the menu.</i>\n\nRemove the Search token
+EventLabOrangeGreen_Tile14.button1,{qst:ENTER_RED}
+EventLabOrangeGreen_Tile14.text,The Orange vial is slotted into "Stabiliser" slot and the Green vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabOrangeGreen_Tile14.button2,{qst:ENTER_BLUE}
+EventLabOrangeGreen_Tile14.button3,{qst:CANCEL}
+EventLabOrangeBlue_Tile14.text,The Orange vial is slotted into "Stabiliser" slot and the Blue vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabOrangeBlue_Tile14.button1,{qst:ENTER_RED}
+EventLabOrangeBlue_Tile14.button2,{qst:ENTER_GREEN}
+EventLabOrangeBlue_Tile14.button3,{qst:CANCEL}
+EventLabGreenRed_Tile14.button3,{qst:CANCEL}
+EventLabGreenOrange_Tile14.text,The Green vial is slotted into "Stabiliser" slot and the Orange vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabGreenOrange_Tile14.button1,{qst:ENTER_BLUE}
+EventLabGreenOrange_Tile14.button2,{qst:ENTER_RED}
+EventLabGreenOrange_Tile14.button3,{qst:CANCEL}
+EventLabGreenBlue_Tile14.text,The Green vial is slotted into "Stabiliser" slot and the Blue vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabGreenBlue_Tile14.button1,{qst:ENTER_ORANGE}
+EventLabGreenBlue_Tile14.button2,{qst:ENTER_RED}
+EventLabGreenBlue_Tile14.button3,{qst:CANCEL}
+EventLabRedOrange_Tile14.button3,{qst:CANCEL}
+EventLabRedBlue_Tile14.text,The Red vial is slotted into "Stabiliser" slot and the Blue vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabRedBlue_Tile14.button1,{qst:ENTER_GREEN}
+EventLabRedBlue_Tile14.button2,{qst:ENTER_ORANGE}
+EventLabRedBlue_Tile14.button3,{qst:CANCEL}
+EventLabRedGreen_Tile14.text,The Red vial is slotted into "Stabiliser" slot and the Green vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabRedGreen_Tile14.button1,{qst:ENTER_BLUE}
+EventLabRedGreen_Tile14.button2,{qst:ENTER_ORANGE}
+EventLabRedGreen_Tile14.button3,{qst:CANCEL}
+EventLabBlueOrange_Tile14.text,The Blue vial is slotted into "Stabiliser" slot and the Orange vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabBlueOrange_Tile14.button1,{qst:ENTER_RED}
+EventLabBlueOrange_Tile14.button2,{qst:ENTER_GREEN}
+EventLabBlueOrange_Tile14.button3,{qst:CANCEL}
+EventLabBlueGreen_Tile14.text,The Blue vial is slotted into "Stabiliser" slot and the Green vial into the "Part 1" slot.\n\nYou ponder for a moment longer before deciding on a vial to enter into the "Part 2" slot.
+EventLabBlueGreen_Tile14.button1,{qst:ENTER_RED}
+EventLabBlueGreen_Tile14.button2,{qst:ENTER_BLUE}
+EventLabBlueGreen_Tile14.button3,{qst:CANCEL}
+EventHoldingCellHealerArrives_REvent5.button1,{qst:CONTINUE}
+EventHoldingCellHealerPatchup1_Tile21.text,The doctor looks you over and applies ointment and bandages to your wounds.\n\nFlip one damage and horror face down. Then discard one face down damage and horror.
+EventHoldingCellHealerPatchup1_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellHealerPatchUp2_Tile21.text,The doctor tisks as he pulls out his last set of bandages. He applies some ointment to your wounds and bandages them up.\n\n"Thats all I can do for you friend, please find out what's causing this chaos..." he says before returning to the group.\n\nFlip one damage and horror face down. Then discard one face down damage and horror.\n\nRemove the Person token
+EventHoldingCellHealerPatchUp2_Tile21.button1,{qst:CONTINUE}
+TokenLabEquipmentFirst_Tile14.text,To one side of the Laboratory is a strange apparatus.
+EventBlackboardInspect.button1,{qst:CONTINUE}
+EventWarehouseCrate3replace3a_2_Tile20.button1,Button1
+EventPostItInspect.button1,{qst:CONTINUE}
+EventLabVials_PlayerInv.button1,{qst:CONTINUE}
+EventRedVialInspect.button1,{qst:CONTINUE}
+EventGreenVialInspect.button1,{qst:CONTINUE}
+EventBlueVialInspect.button1,{qst:CONTINUE}
+TokenLabBoardStabilizer_Tile14.button1,{qst:ACTION_INVESTIGATE}
+EventPlaceCandles_Berth3.button1,{qst:CONTINUE}
+TokenBerth3Candles_Tile5.text,The mysterious man's belongings appear to have spilled from his bag and litter the jetty.
+TokenBerth3Candles_Tile5.button1,{qst:ACTION_INVESTIGATE}
+EventBerth3TakeCandles_Tile5.text,You pick up one of the items.\n\nTake the {c:QItemPlazaMan} common item.
+EventBerth3TakeCandles_Tile5.button1,{qst:CONTINUE}
+EventWHPlaceHiddenDoorScientist_Tile20.button1,{qst:CONTINUE}
+EventHoldingCellRemoveScientist_Tile21.text,\nHaving exhausted the conversation Dr Chan smiles in a somewhat somber way and returns to the group.\n\nRemove the Person token
+EventHoldingCellRemoveScientist_Tile21.button1,{qst:CONTINUE}
+EventWHPlaceHiddenDoorScientist_Tile20.text,On the far wall there are several shelves with dust sheets thrown over them. One of the sheets flutters softly.\n\nPlace a Search token
+EventPlazaInvestigateGlow_Tile6.text,You reach in and grasp the item. There is a searing light and in an instant you are on an alien world, foreign voices speak in your head of the terror and destruction you would cause with this item. Test {lore} (2).
+EventPlazaInvestigateGlow_Tile6.button1,{qst:PASSED}
+EventPlazaInvestigateGlow_Tile6.button2,{qst:FAILED}
+EventPlazaInvestigateGlowPassed_Tile6.text,You shake off the illusion and recognize it for what it is, a warding spell cast on the item. \n\nLooking at the item you are suprised to notice it has not been effected by the fountains waters. Gain the {c:QItemElderItem_Tile6} common item.\n\nRemove the Search token
+EventPlazaInvestigateGlowPassed_Tile6.button1,{qst:CONTINUE}
+EventPlazaInvestigateGlowFailed_Tile6.text,You panic unable to shake off the vision, what if it is true? You eventually come round from the vision and realise you have dropped the item back into the fountain's waters.\n\nSuffer 1 horror and become Mesmerized.
+EventPlazaInvestigateGlowFailed_Tile6.button1,{qst:CONTINUE}
+EventPlacePlazaFountainSearch_REvent6.text,A pulsing light begins to emanate from the plaza fountain.\n\nPlace a Search token as indicated
+EventPlacePlazaFountainSearch_REvent6.button1,{qst:CONTINUE}
+EventBeachItem_REvent7.text,An item washes up on the shore of the beach.\n\nPlace a Search token as indicated
+EventBeachItem_REvent7.button1,{qst:CONTINUE}
+TokenCommonItemInCrate_REvent7.text,A crate has washed up on the beach.
+EventBeachItemSearch_Tile4.button1,{action} Swallow some of the pills
+EventBeachItemEvent1_Tile4.text,You swallow some of the pills, pausing for a moment you wait to see if they have any effect.\n\nThe pounding in your head slows a little and you feel slightly refreshed.\n\nDiscard one face down horror.\n\nRemove the Search token
+EventBeachItemEvent1_Tile4.button1,{qst:CONTINUE}
+EventBeachItemEvent2_Tile4.text,{qst:EventBeachItemEvent1_Tile4.text}
+EventBeachItemEvent2_Tile4.button1,{qst:CONTINUE}
+EventBeachItemEvent3_Tile4.button1,{qst:CONTINUE}
+EventBeachItemEvent4_Tile4.text,You swallow some of the pills, pausing for a moment you wait to see if they have any effect.\n\nAfter a few moments you feel a churning in your stomach and retch. You spend the next few minutes emptying the contents of your stomach, pondering why you had decided to injest some random pills, found on a beach.\n\nBecome Stunned.\n\nRemove the Search token
+EventBeachItemEvent3_Tile4.text,You swallow some of the pills, pausing for a moment you wait to see if they have any effect.\n\nThe pain of your wounds numbs slightly to you and you feel slightly refreshed.\n\nDiscard one face down damage.\n\nRemove the Search token
+EventBeachItemEvent4_Tile4.button1,{qst:CONTINUE}
+EventBeachItemEvent5_Tile4.text,You swallow some of the pills, pausing for a moment you wait to see if they have any effect.\n\nYou feel a surge of adrenaline, become Focused.\n\nRemove the Search token
+EventBeachItemEvent5_Tile4.button1,{qst:CONTINUE}
+EventBeachItemEvent6_Tile4.text,You swallow some of the pills, pausing for a moment you wait to see if they have any effect.\n\nYou wait for a moment and nothing seems to happen. Assuming they are just a placebo you go about your business.\n\nBecome Mesmerized.\n\nRemove the Search token
+EventBeachItemEvent6_Tile4.button1,{qst:CONTINUE}
+EventLabNastyBurnOption_Tile15.button2,{qst:ACTION_INVESTIGATE}
+EventLabNastyBurnOption_Tile15.button3,{qst:CANCEL}
+EventLabNastyCureOrBurnOption_Tile15.button3,{qst:ACTION_INVESTIGATE}
+EventLabNastyCureOrBurnOption_Tile15.button4,{qst:CANCEL}
+EventBeachItemSearch_Tile4.button2,{qst:CANCEL}
+UISplashScreenText.button1,{qst:CONTINUE}
+UICentaurCrate_Tile20.button1,{qst:CONTINUE}
+TokenBeachSearch_Tile4.button1,{qst:ACTION_INVESTIGATE}
+TokenNorthStreetSight_Tile7.text,The street continues around the corner heading North.\n\nInvestigators in the {c:TileShopFront_Tile7} tile may Investigate this token
+SpawnLabZombie1_Tile14.button1,{qst:CONTINUE}
+EventEastAlleyInvestigateHiddenSearch_Tile9.text,You pull away the poster and find a loose brick, similar to the lab. Behind it is a switch, which you flick down. In response the wall opens towards you.
+EventPlaceEasyAlleyHiddenSearch_Tile9.text,Now that you have seen the blue poster, concealing the lab entrance. You remember seeing a similar one on the wall in the East Alley.\n\nPlace a Search token
+EventPlaceEasyAlleyHiddenSearch_Tile9.button1,{qst:CONTINUE}
+TokenEastAlleyHiddenDoor_Tile9.button1,{qst:ACTION_INVESTIGATE}
+EventEastAlleyHiddenDoorNoStealth_Tile9.text,Behind the hidden door are several shelves with dust sheets thrown over them, you slide them aside.\n\nRemove the Search token and Walls as indicated
+EventEastAlleyHiddenDoorStealth_Tile9.text,Behind the hidden door are several shelves with dust sheets thrown over them. You attempt to slide them aside, Test {agility}(2).
+EventEastAlleyHiddenDoorStealth_Tile9.button1,{qst:PASSED}
+EventEastAlleyHiddenDoorStealth_Tile9.button2,{qst:FAILED}
+EventEastAlleyRemoveHiddenDoorSearch_Tile9.text,Remove the Search token as indicated.
+EventWarehouseMoveInEastAlley_Tile20.text,You may move one space into the explored area
+EventWarehouseMoveInEastAlley_Tile20.button1,{qst:CONTINUE}
+EventLabApparatusFirstUseInvestigate_Tile14.button1,{qst:CONTINUE}
+TokenSecretLabEquipmentUse_Tile14.button1,{qst:ACTION_ENTER_ORANGE}
+EventLabApparatusFirstUseInvestigate_Tile14.text,The apparatus looks complicated, there are three empty slots that appear to be for liquid vials. The first is labeled "Part 1", the second "Part 2" and the final is labelled "Stabiliser".\n\n On a shelf above the machine are rows of vials, unhelpfully they are not labelled.\n\nOn a table to one side of the machine is a small Orange vial with the number #2734 on it. You pick it up, take the {c:QItemVials} unique items.\n\nGain one {clue} token.\n\nYou can inspect this and any other vials you may find by interacting with the {c:QItemVials} in the Items menu.
+EventEvadeBigNasty4.text,The creature flails wildly and you attempt to sidestep out of its reach. Suffer 2 damage {agility} negates as the limbs pound you. If you suffer one or more damage, end your movement action.
+EventLabPlaceFire_Tile12.button1,{qst:CONTINUE}
+EventPlaceHoldingCellExit_Tile21.text,In the top corner of the storage area is a barred window.\n\nPlace a Search token as indicated
+EventPlaceHoldingCellExit_Tile21.button1,{qst:CONTINUE}
+TokenHoldingCellExit_Tile21.text,In the top corner of the storage area is a barred window, it has a heavy padlock preventing it from being opened. If you can somehow open it you should be able to climb through.
+TokenHoldingCellExit_Tile21.button1,{action} Pick the lock
+TokenHoldingCellExit_Tile21.button2,{action} Break the lock
+EventHoldingCellDoorOpen_Tile21.button1,{qst:CONTINUE}
+PuzzleHoldingCellUnlockWindow_Tile21.button1,{qst:COMPLETE}
+EventHolodingCellPuzzleComplete_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellDoorOpen_Tile21.text,You push open the barred window to the East Alley Street.\n\nPlace a door as indicated.
+EventHolodingCellPuzzleComplete_Tile21.text,The padlock clicks and opens.\n\nRemove the Search token
+EventHoldingCellSmashPadlock_Tile21.text,You pick up one of the tools from a nearby cabinet and attempt to break the lock. Test {strength}(2).
+EventHoldingCellSmashPadlock_Tile21.button1,{qst:PASSED}
+EventHoldingCellSmashPadlock_Tile21.button2,{qst:FAILED}
+EventHoldingCellPadlockBreakSuccess_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellPadlockBreakFAIL_Tile21.text,No matter how hard you try you are unable to break the padlock. 
+EventHoldingCellPadlockBreakSuccess_Tile21.text,The padlock snaps from the window.\n\nRemove the Search token
+EventHoldingCellPadlockBreakFAIL_Tile21.button1,{qst:CONTINUE}
+EventHoldingCellMoveInAlley_Tile21.text,You may move one space into the the space indicated.
+EventHoldingCellMoveInAlley_Tile21.button1,{qst:CONTINUE}
+EventBigNastyPlaceEastAlly_Tile9.text,The echoing scream appears to have come from a building on the East Alley.\n\nPlace the {c:TileEastAlley_Tile9}, {c:TileEastAlley2_Tile11}, walls and Darkness as indicated.\n\nRemove any Search tokens connected to this location
+EventBigNastyPlaceEastAlly_Tile9.button1,{qst:CONTINUE}
+EventBigNastyPlaceLab_Tile14.text,There is a huge explosion in the dark East Alley, the wall of a building explodes outwards revealing a Hidden Laboratory.\n\nPlace the {c:TileSecretLab_Tile14} and Wall as indicated.\n\nRemove the wall and any explore tokens connected to this tile.
+EventBigNastyPlaceLab_Tile14.button1,{qst:CONTINUE}
+EventLabCurePuzzleCompleteNastySpawned_Tile14.text,You twist the various knobs to align several small tubes, before slotting the vial into place and pulling the lever.\n\nThe strange liquid drains from the vial down several clear tubes. You jump as a furnace kicks in and watch mesmerised as the liquid is vaporised into a fine mist. The mist is pumped into the Test Room through several vents, a myriad of colours dancing around the mist. \n\nThe mist billows out of the Test Rooms broken viewing window and slowly fills the room. You cover your mouth as the vapour continues to pour out onto the streets of Ambersby.\n\nWhen the mist touches the beast, a dozen voices cry out as one, its flesh popping and crackling. The creature wails and slumps to the ground. \n\nDo <b>not</b> remove the Terror of Ambersby.
+TokenLabBigNastyRoomBossSpawned_Tile14.text,You approach a door to the rear of the Laboratory, it appears to lead to a small testing room the large viewing windows are smashed. Next to the damaged door is a strange looking slot.\n\nThis is obviously where the monster has escaped from.
+EventLabNastyInvestigateBossSpawned_Tile14.text,You think that something can be inserted into the slot next to the door, but you don't appear to have the correct item.
+TokenLabBigNastyRoomBossSpawned_Tile14.button1,{qst:INVESTIGATE}
+EventLabCurePuzzleCompleteNastySpawned_Tile14.button1,{qst:CONTINUE}
+EventLabNastyInvestigateBossSpawned_Tile14.button1,{qst:CONTINUE}
+EventBigNastyMoves1Space.button1,{qst:CONTINUE}
+EventBigNastyMoveRangeTarWill.button2,No Investigators in Range
+EventBigNastyMoveMeleeTarObserv.button2,No Investigators in range
+EventBigNastyMoveRangeTargetAgi.button2,No Investigators in range
+EventBigNastyMeleeAttack3.button1,{qst:CONTINUE}
+EventBigNastyRangeAttack2.text,The Terror of Ambersby flails at you, despite you being well out of its reach. Just as you think you are safe from its attacks a limb detaches from the creature and sails towards you.\n\nTest {observation} (2) as you notice quite late that the projectile is on target. If you succeed you manage to avoid the projectile. If you fail the severed limb crashes into you knocking you off your feet, suffer 2 face down damage and become Stunned.
+EventBigNastyRangeAttack3.text,The Terror of Ambersby lashes out long tentacles towards you, they wrap around your legs entangling you. \n\nYou struggle to break free, suffer 3 face down damage ({strength} negates) as its suckers begin to shred off patches of your skin. If you suffer 1 or more damage become Restrained, as you desperately struggle to free yourself from the creature's grasp.
+EventBigNastyRangeAttack3.button1,{qst:CONTINUE}
+EventBigNastyRangeAttackAll2.button1,{qst:CONTINUE}
+EventHorrorBigNasty3.text,As the Terror of Ambersby turns and several mangled faces stare at you with anguish and torture in there eyes.\n\nYou find yourself staring back fixated on theses poor tortured souls and barely notice the tail like tentacle swinging towards you from one side. Test {agility} (2). \n\nIf you succeed you manage to duck at the very last moment, the tail swinging above your head harmlessly. If you fail the blow catches you unaware, suffer 1 face down damage and become Dazed.
+EventBigNastyHeal.text,The Monster stops all of a sudden.\nIt's skin begins to ripple and shudder, you watch in horror as its wounds begin to knit together.\n\nHeal the Terror of Ambersby two damage.
+EventBigNastyHeal.button1,{qst:CONTINUE}
+EventNorthStreetInvestigatePuddle_Tile17.text,The scrap of paper is partially submerged in the puddle. Carefully you attempt to retrieve the paper without causing further damage to the text. Test {lore} (2).
+EventNorthStreetInvestigatePuddle_Tile17.button1,{qst:PASSED}
+EventNorthStreetInvestigatePuddle_Tile17.button2,{qst:FAILED}
+EventNorthStreetInvestigatePuddleSuccess_Tile17.text,You carefully pinch the corner of the paper and slowly lift it from the water. Blotting it with a rag you quickly copy the text to a fresh piece of paper before the water causes the ink to bleed and smudge.\n\nYou don't know where this paper came from but it appears to have contained an ancient spell.\n\nGain the {c:QItemNorthStreetSpell} spell.\n\nRemove the Search token
+EventNorthStreetInvestigatePuddleSuccess_Tile17.button1,{qst:CONTINUE}
+EventNorthStreetInvestigatePuddleFailed_Tile17.text,You carefully pinch the corner of the paper and pull it from the water. It appears to be an ancient text, but unfortunately you cannot decipher its contents due to the damage it has sustained from the water.\n\nRemove the Search token
+EventNorthStreetInvestigatePuddleFailed_Tile17.button1,{qst:CONTINUE}
+EventPlaceNorthStreetSpell_REvent9.button1,{qst:CONTINUE}
+TokenScrapOfSpell_REvent9.text,A scrap of papers sits in a puddle between the cobbles.
+EventPlaceNorthStreetSpell_REvent9.text,The wind carries a scrap of paper, which tumbles down North Street. It comes to rest in a small puddle between the cobbles.\n\nPlace a Search token as indicated.
+UIPostItFull.button1,{qst:CONTINUE}
+UIBlackboardInspect.button1,{qst:CONTINUE}
+UIBlueVialInspect.button1,Button1
+UIOrangeVialInspect.button1,Button1
+UIRedVialInspect.button1,Button1
+UIGreenVialInspect.button1,Button1
+EventLabVials_PlayerInv.text,The solution in this vial is Orange, the label reads "2734".
+EventRedVialInspect.text,The solution in this vial is Red, the label reads "9252".
+EventGreenVialInspect.text,The solution in this vial is Green, the label reads "7334".
+The solution in this vial is Green, the label reads "7334".
+EventBlueVialInspect.text,The solution in this vial is Blue, the label reads "6544".
+EventSnackShopZombieBoySaved_REvent1.text,The girl runs to you and gives you a hug, grateful for your help. You direct her to the safety of the Sheriff's office. Your spirit is lifted by your act of kindness, become Focused.\n\nRemove the Person token and Barricade
+EventSnackShopZombieBoySaved_REvent1.button1,{qst:CONTINUE}
+EventHoldingCellHealerArrives_REvent5.text,A women in the group of survivors doubles over in pain, a man you hadn't noticed before steps from the group and attends to her. He appears to be a Doctor of some sort.\n\nPlace a Person token as indicated
+EventSearchBarrel_Tile2.button2,{qst:FAILED}
+EventDockGet2x4_Tile2.text,You work it free. Gain the {c:QItem2x4_Tile2} Common Item.\n\nRemove Search token
+EventDockGet2x4_Tile2.button1,{qst:CONTINUE}
+EventDockGet2x4Failed_Tile2.text,You pull at the wooden railing, but are unable to gain a steady purchase on the damp wood.
+EventDockGet2x4Failed_Tile2.button1,{qst:CONTINUE}
+EventSheriffOfficeSMASHDoorFailed_Tile15_Unused.text,The door proves sturdier than you would have expected. After a while you concede defeat and stop to catch your breath.
+EventLabApparatusCompleteEASY_Tile15_NOTUSED.text,With the realisation that there are no other suitable candidates, you grimace and strap your arm into the apparatus. With the other arm you pull the levels in the sequence that the man explained.\n\nThe machine bursts into life, you wince as a needle pierces your forearm and takes a sample of your blood, suffer one face down damage. You watch in fascination as a portion of the strange liquid mixes with your blood sample and dispenses into a vial.\n\nTake the {c:QItemLabCure_Tile15} unique item, this represents the mixture.\n\nRemove the Search token
+EventSnackShopZombieAttackInvestigatorsTarWill_REvent1.text,The Creature has caught the scent of new prey, it lumbers towards what it thinks is the most vulnerable target.\n\nMove the Zombie one space towards the closest Investigator and and attack the investigator in range that has the lowest {strength}.
+EventSnackShopZombieInvestigatorsTarStr_REvent1.text,The Creature has caught the scent of new prey, it lumbers towards the smallest target.\n\nMove the Zombie one space towards the closest Investigator and and attack the investigator in range that has the lowest {strength}.
+EventSnackShopZombieAttackInvestigatorsTarWill_REvent1.button1,{qst:MONSTER_ATTACKS}
+EventSnackShopZombieInvestigatorsTarLore_REvent1.text,The Creature has caught the scent of new prey, it lumbers towards a random target.\n\nMove the Zombie one space towards the closest Investigator and and attack the investigator in range that has the most {clue} tokens.
+EventSnackShopZombieInvestigatorsTarLore_REvent1.button1,{qst:MONSTER_ATTACKS}
+EventSnackShopZombieInvestigatorsTarStr_REvent1.button2,No Investigators in range
+EventSnackshopZombieInvestigatorsNoRange_REvent1.button1,{qst:CONTINUE}
+EventSnackShopZombieInvestigatorAttack1_REvent1.text,The creature charges and attempts to grapple you. You struggle to free yourself from its grasp, test {strength} (2). If you succeed you managed to break the creatures hold and push it away. If you fail the monster's teeth sink into you shoulder, suffer 2 face down damage.
+EventSnackshopZombieInvestigatorsNoRange_REvent1.text,The creature pushes forward.\n\nMove the monster one space towards the nearest investigator.
+EventSnackShopZombieInvestigatorAttack1_REvent1.button1,{qst:CONTINUE}
+EventSnackShopZombieInvestigatorAttack2_REvent1.text,The creature swings and arm towards your head, you attempt to duck, test {agility} (2). If you succeed the creatures swing misses as you dodge. If you fail the blow connects and the world spins before you, suffer one face down damage and become Dazed.
+EventSnackShopZombieInvestigatorAttack2_REvent1.button1,{qst:CONTINUE}
+EventSnackShopZombieInvestigatorAttack3_REvent1.text,The creatures attack is clumsy and you raise an arm to block the blow. With a sickening crack the creatures limb snaps and the broken limb connects with your shoulder, suffer one face down damage and one face down horror ({will} negates).
+EventSnackShopZombieInvestigatorAttack3_REvent1.button1,{qst:CONTINUE}
+EventSnackShopZombieInvestigatorAttack4_REvent1.text,With a burst of unexpected speed, the creature charges headlong towards you, catching you by surprise. Suffer one face down damage ({observation}-1 negates) as you stumble to get out of its path.
+EventSnackShopZombieInvestigatorAttack4_REvent1.button1,{qst:CONTINUE}
+CustomMonsterZombieRiot.info,-
+EventZombieRiotEvade_Tile15.button1,{qst:CONTINUE}
+CustomMonsterZombieRiot.monstername,Riot of Creatures
+EventZombieRiotHorror_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotActivation_Tile15.button1,{qst:CONTINUE}
+EventSnackShopZombieAttackInvestigatorsTarWill_REvent1.button2,{qst:NO_INVESTIGATORS_IN_RANGE}
+EventSnackShopZombieInvestigatorsTarLore_REvent1.button2,{qst:NO_INVESTIGATORS_IN_RANGE}
+EventZombieRiotTarWillRange_Tile15.text,The mob of creatures move as a chaotic rabble snarling and growling as they slowly approach their prey. \n\nThe Zombie Riot moves two spaces to be in range of as many Investigators as possible and attacks the Investigator in range with the lowest {will}.
+EventZombieRiotAttackRange1_Tile15.text,One of the creatures stops, begins to retch and vomits the contents of its stomach onto the ground. You can't help but look down at the pool and notice a human eye ball.\n\nSuffer one face down horror ({will}-1 negates).
+EventZombieRiotAttackRange1_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotTarWillRange_Tile15.button1,{qst:MONSTER_ATTACKS}
+EventZombieRiotAttackRange2_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotTarAgilityRange_Tile15.text,The mob of creatures move as a chaotic rabble snarling and growling as they slowly approach their prey. \n\nThe Zombie Riot moves two spaces to be in range of as many Investigators as possible and attacks the Investigator in range with the highest {agility}.
+EventZombieRiotTarAgilityRange_Tile15.button1,{qst:MONSTER_ATTACKS}
+EventZombieRiotTarStrMelee_Tile15.text,The mob of creatures move as a chaotic rabble snarling and growling as they slowly approach their prey. \n\nThe Zombie Riot moves two spaces to the nearest Investigator and attacks the Investigator in its space with the lowest {strength}.
+EventZombieRiotTarStrMelee_Tile15.button1,{qst:MONSTER_ATTACKS}
+EventZombieRiotTarAgiMelee_Tile15.text,The mob of creatures move as a chaotic rabble snarling and growling as they slowly approach their prey. \n\nThe Zombie Riot moves two spaces to the nearest Investigator and attacks the Investigator in its space with the highest {agility}.
+EventZombieRiotTarAgiMelee_Tile15.button1,{qst:MONSTER_ATTACKS}
+EventZombieRiotTarWillMelee_Tile15.text,The mob of creatures move as a chaotic rabble snarling and growling as they slowly approach their prey. \n\nThe Zombie Riot moves two spaces to the nearest Investigator and attacks the Investigator in its space with the highest {will}.
+EventZombieRiotTarWillMelee_Tile15.button1,{qst:MONSTER_ATTACKS}
+EventZombieRiotTarObsMelee_Tile15.text,The mob of creatures move as a chaotic rabble snarling and growling as they slowly approach their prey.  \n\nThe Zombie Riot moves two spaces to the nearest Investigator and attacks the Investigator in its space with the lowest {observation}.
+EventZombieRiotTarObsMelee_Tile15.button1,{qst:MONSTER_ATTACKS}
+EventZombieRiotTarWillRange_Tile15.button2,{qst:NO_INVESTIGATORS_IN_RANGE}
+EventZombieRiotAttackRange2_Tile15.text,One of the creatures out paces the group. It stops just short of you and begins to convulse. \n\nYou are surprised as an impossible stream of projectile vomit is ejected from the creatures distended jaw.\n\nTest {agility} (2). If you pass you are able to roll out of the way before the vomit hits. If you fail the vomit burns as it splashes the exposed parts of your skin, suffer two face down damage.
+EventZombieRiotTarAgilityRange_Tile15.button2,{qst:NO_INVESTIGATORS_IN_RANGE}
+EventZombieRiotTarStrMelee_Tile15.button2,{qst:NO_INVESTIGATORS_IN_RANGE}
+EventZombieRiotTarAgiMelee_Tile15.button2,{qst:NO_INVESTIGATORS_IN_RANGE}
+EventZombieRiotTarWillMelee_Tile15.button2,{qst:NO_INVESTIGATORS_IN_RANGE}
+EventZombieRiotTarObsMelee_Tile15.button2,{qst:NO_INVESTIGATORS_IN_RANGE}
+EventZombieRiotAttackRangeAll_Tile15.text,The group howls in frustration as it is unable to devour its prey. One of the creatures is suddenly forced out of the pack, then the rest of the creatures descend upon it. The lone creature howls in pain as it is torn apart right in front of you.\n\nDeal (up to) two damage to the Zombie Riot, if this attack would defeat the Monster leave it with one health remaining instead.\n\nEach Investigator within range suffers two face down horror ({will} negates)
+EventZombieRiotAttackRangeAll_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotNoRangeMoves_Tile15.text,The creatures snap and bite at each other as they continue to close the distance.\n\nMove the Zombie Riot one space towards the nearest investigator.
+EventZombieRiotNoRangeMoves_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotAttackMeleeAll_Tile15.text,The chaotic pack of creatures descends, clawing and snapping at you and your companions.\n\nSuffer 3 face down damage ({strength}+1 negates) as you try to fend off their attacks. All other Investigator in your space take one face down damage as they are caught up in the fray.
+EventZombieRiotAttackMeleeAll_Tile15.button1,{qst:CONTINUE}
+EventBigNastyActivate.button1,{qst:CONTINUE}
+EventSheriffNoTarget.button1,{qst:CONTINUE}
+EventHorrorSheriff.button2,Ignore him
+EventSheriffHorrorDropWeapons.text,You drop your weapons and surrender to Sheriff Robins. The shame of what you have done hits, you suffer one face down horror.\n\n With his gun trained on you the whole time, Sheriff Robins carefully climbs around the barricade. He tells you to place your hands on your head.\n\nPlace all items with the <i>Weapon</i> keyword in your space and become Restrained
+EventSheriffHorrorDropWeapons.button1,{qst:CONTINUE}
+EventSheriffRobinsPostAttackDialog.text,You explain that you have had a change of heart and that you have no interest in fighting him. Sheriff Robins makes you promise to leave him and the people under his protection alone, realising that he is unable to detain anyway.\n\nHe steps back behind the counter, his gun still drawn but not pointed at you for now.\n\nRemove the Person token that represents Sheriff Robins and the Barricade
+EventSheriffRobinsPostAttackDialog.button1,{qst:CONTINUE}
+TokenSHORTCUTREMOVEONCEDONE.button2,Sheriff
+EventEastAlleyRemoveHiddenDoorSearch_Tile9.button1,{qst:CONTINUE}
+EventZombieRiotAttackMelee1_Tile15.text,One of the creatures leap towards you with unnatural speed and you are unable to dodge.\n\nTest {strength}(2). If you succeed you manage to keep your footing and throw the creature off. If you fail the creature drives you to the ground, suffer 1 face down damage and become Stunned.
+EventZombieRiotAttackMelee1_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotAttackMelee2_Tile15.text,You find yourself toe to toe with a creature, it snarls at you and attempts to claw at your face. You attempt to block the blow. Test {strength} (2). If you succeed you manage to catch the creatures arm before it can build any momentum in its swing. If you fail, the claws rake your arms as you raise them to protect yourself, suffer 2 face down damage.
+EventZombieRiotAttackMelee2_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotAttackMelee3_Tile15.text,As you battle a creature head on, another flanks you. Test {observation}. If you pass you spot the creature and avoid its strike. If you fail, you do not notice the second creature until its teeth sink into your shoulder, suffer 1 face down damage and one face down horror.
+EventZombieRiotAttackMelee3_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotEvade1_Tile15.text,The creautre's are all around you blocking every path. YOu attempt to force your way past. Suffer 2 face down damage as they claw at your as you attempt to pass. If you suffer one or more damage or horror you are unable to make any progress, end your movement action.
+EventZombieRiotEvade1_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotEvade2_Tile15.text,You are hopelessly outnumbered by the creatures, as they press in around you. Suffer one face down damage and one horror ({agility} negates) as you try to dodge through the mass of bodies that overwhelm you. If you suffer one or more damage you are unable to make any progress, end your movement action.
+EventZombieRiotEvade2_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotEvade3_Tile15.text,You focus your attention and look for an exit through the cacophony of the fray. Test {observation} (2). If you succeed you spot and opening and make a dash for it. If you fail every attempt you make to escape the fray fails, end your movement action.
+EventZombieRiotEvade3_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotHorror1_Tile15.text,One of the creatures looks at you. You are unable to tear your gaze from it, as it slowly begins to peel flesh away from its own face.\n\nSuffer two face down horror ({will}+1 negates).
+EventZombieRiotHorror1_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotHorror2_Tile15.text,The group of creatures crash into each other, snarling and screaming as they plough through anything in their path.\n \nThe realization of the situation hits and you feel panic rising within you. Test {will{ (2) if you succeed you manage to push the fear down inside you. If you fail, you are unable to move frozen to the spot from fear, become Restrained.
+EventZombieRiotHorror2_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotHorror3_Tile15.text,One of the creatures grapples another creatures from the group and with unnatural strength rips it's arm clean from it's shoulder.\n\nThe sight terrifies you and sickens you to the stomach, suffer 2 face down horror ({will} negates).
+EventZombieRiotHorror3_Tile15.button1,{qst:CONTINUE}
+EventZombieRiotHorror4_Tile15.text,You notice a creature staring intently at you, blood drips from its jaw and parts of its muscle and bone can be seen through parts of its rent flesh. Suffer 1 face down horror ({will}+1 negates) as you realise that this creature was once a person.
+EventZombieRiotHorror4_Tile15.button1,{qst:CONTINUE}
+EventWarehouseSmashChestSuccessStealth_Tile20_NOTUSED.text,The side of the chest splits open under the force of your blow. The sound of breaking wood echoes around the room.\n\nRemove the Search token
+EventReadManifestInfo_PlayerInv.text,You look over the Moorings page again:\n\n<i>Berth 3: \nResearch Vessel #4, Dr Joyce Little\nDeparted in a hurry. Left cargo\nInvoice "The Centaur Company" \nfor clean-up costs.</i>\n\nThis small town seems like a strange place for a Reasearch vessel.
+EventReadManifestInfo_PlayerInv.button1,{qst:CONTINUE}
+EventReadManifestFirst_PlayerInv.button1,{qst:CONTINUE}
+EventReadManifestInfo2_PlayerInv.text,You flick to the Inventory pages to refresh your memory:\n\n<i>Fuel Canisters = 0 - Stock, awaiting delivery\nRecent sales - Sheriff Robins - 1 Can \nDr Little - Berth 3 refuel.</i>\n\nAlthough the Rental Office has no remaining fuel, Sheriff Robins appears to have a canister.
+EventReadManifestInfo2_PlayerInv.button1,{qst:CONTINUE}
+EventLabApparatusIncMixBad2_Tile12.text,You place the final two vials in the machine and hit the button.\n\nThe machine bursts into life, mixing the two parts, then the stabiliser. The machine shakes violently as the liquids react with eachother, a red light flashes in warning and it finally vents the bubbling brown liquid into a waste vial at the rear of the machine. \n\nAs you attempt to remove the waste vial from the rear, you notice too late that the mixture has burnt through the vial. Suffer 1 face down damage as the liquid burns your skin.
+EventLabApparatusIncMixBad1_Tile12.text,You place the final two vials in the machine and hit the button.\n\nThe machine bursts into life, mixing the two parts, then the stabiliser. The machine shakes violently as the liquids react with eachother, a red light flashes in warning and it finally vents the bubbling brown liquid into a waste vial at the rear of the machine. You carefully remove the mixture and slot spare compartment to the back.
+EventLabApparatusIncMixBad2_Tile12.button1,{qst:CONTINUE}
+EventLabNastyCureOption_Tile15.button2,{qst:CANCEL}
+EventBigNastyMoveMeleeTarStr.button1,{qst:MONSTER_ATTACKS}
+EventBigNastyMoveMeleeTarStr.button2,No Investigators in Range
+EventBigNastyMoveMeleeTarStr.text,The Terror of Ambersby moves 2 space towards the nearest Investigator and attack the Investigator in its space with the lowest {strength}.
+EventReadInvestigatorJournal.text,Your faithful journal contains evidance and thoughts from your many adventures.\n\nA section is bookmarked under the title "Ambersby", this section is used to detail any evidence you may find during your time in Ambersby.
+EventReadInvestigatorJournal.button1,Review Evidence
+EventBerth3ViewPapers_PlayerInv.button1,{qst:CONTINUE}
+EventBerth3ViewPapers_PlayerInv.text,You have noted the contents of the Inventory list found on Berth 3.\n\n<i>"Part One" of serum = Orange liquid #2734</i>
+EventPostItInspect.text,You have attached the note given to you by the man in the appartment, shortly before he turned.\n\n<i> Second Part - Blue<i></i></i>
+EventBlackboardInspect.text,The contents of the Laboratory's Black Board is roughly scretched. The part you can understand is highlighted.\n\n<i>Use stabiliser #9252 as final part with all combinations</i>
+EventGainInvestigatorJournal.text,You take out your old and faithful journal and jot down the name "Ambersby" underlining it.\n\nAny Investigator may interact with the {c:QItemInvestigatorNotes} from the Items menu to review evidance collected.
+EventGainInvestigatorJournal.button1,{qst:CONTINUE}
+UIInventoryPapersInspect.button1,{qst:CONTINUE}
+EventSignPostInspect.button1,{qst:CONTINUE}
+EventBigNastyInvestigateFirst_Tile12.button1,{qst:ACTION_INVESTIGATE}
+EventBigNastyInvestigateFirst_Tile12.text,You consider approaching the viewing window to see whats inside.
+SpawnCorpsesSpawnThrallEastAlley_REvent.text,A mutated and decrepid looking creature lumbers in from a side alley, it appears to have been attracted by the prospect of a fresh meal.\n\nPlace a Thrall as indicated
+SpawnCorpsesSpawnThrallEastAlley_REvent.button1,{qst:CONTINUE}
+TokenHelper_REvent3.text,The mysterious man has no interest in speaking with you, he looks to be on the war path, rage burns behind his eyes.
+TokenHelper_REvent3.button1,{qst:CONTINUE}
+EventHelperAttacksMiss_REvent3.text,The mysterious man fires blindly as he rages towards the creature. Move the Person (Blue) one space towards the nearest monster. Unable to steady his aim he does not hit a target.
+EventHelperAttacksMiss_REvent3.button1,{qst:CONTINUE}
+EventBookStoreSearchInvestigate_Tile13.button2,{qst:FAILED}
+EventBookShopTomesFailed_Tile13.text,You paw through the pages lustily, taking in as much knowledge as you can. Unbeknownst to you, an ancient presence takes root in your mind, become Mesmerized. 
+EventBookShopTomesFailed_Tile13.button1,{qst:CONTINUE}
+EventBookShopTome_Tile13.text,You manage to pull your gaze from the Tome and slam it shut. Although shaken you are not deterred from your mission, you open another tome and cautiously begin to read.\n\nDeciding that the tome may be of use, you slide it into your bag while the Shop Keeper isn't looking.\n\nGain the {c:QItemTome} common item.\n\nRemove the Search token
+EventBookShopTome_Tile13.button1,{qst:CONTINUE}
+TokenBookStoreSearch_Tile13.text,There are several several thick dusty tomes on a desk in the corner, they are all open as if someone has been reading them recently.
+EventEastAlleyRemoveWall_Tile9.text,The window to the Holding Cell is open.\n\nRemove the wall as indicated
+EventEastAlleyRemoveWall_Tile9.button1,{qst:CONTINUE}
+UIPostItBottom.button1,{qst:CONTINUE}
+EventKnockShopInfluance_Tile13.button2,{qst:FAILED}
+EventBookShopInfluanceFailed_Tile13.text,You spend several minutes trying convince the man to let you in, but he appears to be too scared of what may be lurking outside to open the door.
+EventBookShopInfluanceFailed_Tile13.button1,{qst:CONTINUE}
+EventSheriffsOfficeSMASHdoor_Tile15.button2,{qst:FAILED}
+EventSheriffsOfficeFailedSmash_Tile15.text,You kick at the door to no avail, though you are not overly surprised that it's hard to break into a Sheriff's Office.
+EventSheriffsOfficeFailedSmash_Tile15.button1,{qst:CONTINUE}
+EventLabReplaceViewingWindow_Tile14.text,The two large glass viewing windows that look into the back room are smashed.\n\nPlace a Search token, if one is not already present
+EventTimesRunningOut.text,You have an unsettling feeling that time is somehow running out.
+EventTimesRunningOut.button1,{qst:CONTINUE}
+EventSheriffOfficeRemoveBarricade_Tile15.button1,{qst:CONTINUE}
+EventLabReplaceViewingWindow_Tile14.button1,{qst:CONTINUE}
+EventBigNastyCanYouStillCureIt.text,Looking at the giant beast you can see that it will not go down without a hard fight. \n\nThinking back to the apparatus you encountered earlier, you wonder if it may be able to aid you in destroying the creature, once and for all.
+EventBigNastyCanYouStillCureIt.button1,{qst:CONTINUE}
+SpawnBigNasty_CureAfterSpawn.text,Parts of the creature begin to slide away from its main body, the dead meat making a sickening slapping noise as it hits the ground. Despite its inevitable fate, it drags itself towards you.
+SpawnBigNasty_CureAfterSpawn.button1,{qst:CONTINUE}
+EventKillBigNasty_Cured.text,You deal a final fatal blow to the Terror of Ambersby and is slumps to the ground, you hope... for the last time.
+EventKillBigNasty_Cured.button1,{qst:CONTINUE}
+EventSnackShopZombieCorpse_Revent1.text,The zombie has left a shredded corpse behind, the smell of fresh blood begins to drift across town. You worry that the smell might bring some unwanted attention.\n\nPlace an Interact token as indicated
+EventSnackShopZombieCorpse_Revent1.button1,{qst:CONTINUE}
+EventCorpsePresentMonsterSpawnEnd_REvent.button1,{qst:CONTINUE}
+EventRemoveCorpsesAfterMonsters_REvent.text,The wind dies down and the smell of blood from the corpse in the plaza begins to fade.\n\nRemove the Interact token as indicated
+EventRemoveCorpsesAfterMonsters_REvent.button1,{qst:CONTINUE}
+EventRemoveCorpseAfterMonsters2_REvent.text,The smell from the corpse of the little girl in the snack shop dies down.\n\nRemove the Interact token as indicated
+EventRemoveCorpseAfterMonsters2_REvent.button1,{qst:CONTINUE}
+EventRemoveCorpseAfterMonsters3_Revent.button1,{qst:CONTINUE}
+EventRemoveCorpseAfterMonsters3_Revent.text,The smell of blood from the corpse on Berth 3 fades.\n\nRemove the Interact token as indicated
+EventBigNastyRemoveSearch_AfterSpawn.text,There is nothing more to be done in the rear test room.\n\nRemove the Search token as indicated
+EventBigNastyRemoveSearch_AfterSpawn.button1,{qst:CONTINUE}
+EventRemoveInvestigatorToken_Tile1.button1,{qst:CONTINUE}
+UIPlazaMan_Photo.button1,{qst:CONTINUE}
